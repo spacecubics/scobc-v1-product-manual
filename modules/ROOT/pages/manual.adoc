@@ -62,7 +62,7 @@ CON1 は OBC との接続インタフェースです。 +
 === BPD 電源供給用インタフェース（CON2）
 CON2 は Versal の Battery Power Domain (BPD) に対し、電源を供給することが可能なインタフェースです。 +
 BPD は Real Time Clock (RTC) と Battery Backup RAM (BBRAM) を包括しています。 +
-RTC と BBRAM は、通常は OBC 内で生成される電圧 (VCCAUX_PMC_SMON) により動作していますが、OBC の主電源が遮断された場合、CON2 から供給される電圧で維持、または保持されます。
+RTC と BBRAM は、通常は OBC 内で生成される電圧 (VCCAUX_PMC_SMON) により動作していますが、OBC の主電源が切断された場合、CON2 から供給される電圧で維持、または保持されます。
 
 [width="100%",cols="1,2,2,2,2",options="header",]
 |===
