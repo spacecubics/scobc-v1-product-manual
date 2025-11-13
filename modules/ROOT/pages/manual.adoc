@@ -30,7 +30,7 @@ image::Interface_Layout1.svg[Interface_Layout1.svg]
 |CON3 |CON18 信号線観測用インタフェース |ピンヘッダ5ピン (2.54mmピッチ) |コネクタ非搭載
 |CON4 |IGLOO2 FPGA JTAG インタフェース |シュラウド型ピンヘッダ10ピン (5ピン x 2列 / 2.54mmピッチ) |
 |CON5 |IGLOO2 デバックインタフェース |ピンヘッダ4ピン (2.54mmピッチ) |
-|CON6 |Versal / IGLOO2 デバックインタフェース |USB TypeCコネクタ |
+|CON6 |Versal / IGLOO2 デバックインタフェース |USB Type.Cコネクタ |
 |CON7 |Versal Reserve インタフェース |ピンヘッダ4ピン (2.54mmピッチ) |コネクタ非搭載
 |CON8 |microSD カードインタフェース |microSDコネクタ |
 |CON9 |USB2.0 インタフェース |USB TypeAコネクタ |
@@ -514,6 +514,8 @@ SW1 は Versal の起動モードを制御するための DIP スイッチです
 
 スイッチの設定により、以下のように起動モードを設定することが可能です。
 
+image::SW1.svg[SW1.svg]
+
 [width="100%",cols="1,1,1,1,2",options="header",]
 |===
 |MODE 0 |MODE 1 |MODE 2 |MODE 3 |起動モード
@@ -522,8 +524,6 @@ SW1 は Versal の起動モードを制御するための DIP スイッチです
 |OFF |OFF |ON |ON |SD v3.0 (microSDカード)
 4+|その他の設定 |禁止
 |===
-
-image::SW1.svg[SW1.svg]
 
 === Versal POR 制御スイッチ（SW2）
 SW2 は Versal の External POR (Power On Reset) の制御が可能なタクトスイッチです。 +
@@ -579,7 +579,7 @@ image::Interface_Layout2.svg[Interface_Layout2.svg]
 |JP25~JP29 |IGLOO2 Telemetry/Telecommand セレクタ |ピンヘッダ15ピン (5ピン x 3列 / 2.54mmピッチ)
 |JP30~JP33 |RS-422/RS-485 通信設定セレクタ |ピンヘッダ8ピン (4ピン x 2列 / 2.54mmピッチ)
 |JP34 |Versal GTYP セレクタ |ピンヘッダ2ピン (2.54mmピッチ)
-|JP35~JP37 |Versal I2C0 セレクタ |ピンヘッダ6ピン (3ピン x 2列 / 2.54mmピッチ)
+|JP35~JP37 |Versal I2C セレクタ |ピンヘッダ6ピン (3ピン x 2列 / 2.54mmピッチ)
 |JP38~JP41 |Versal Bank 502 電源セレクタ |ピンヘッダ8ピン (4ピン x 2列 / 2.54mmピッチ)
 |JP42~JP44 |Versal CAN セレクタ |ピンヘッダ6ピン (3ピン x 2列 / 2.54mmピッチ)
 |JP45~JP46 |Versal CAN 終端セレクタ |ピンヘッダ4ピン (2ピン x 2列 / 2.54mmピッチ)
@@ -591,16 +591,16 @@ image::Interface_Layout2.svg[Interface_Layout2.svg]
 
 === Versal JTAG セレクタ（JP13~JP18）
 JP13~JP18 は Versal FPGA JTAG インタフェースの接続先を切り替えることが可能なインタフェースです。 +
-ジャンパーソケットを Pin 1-2 間に挿入すると、FTDI IC の Channel. A へ接続され、CON6 からアクセスが可能となります。 +
-また Pin 2-3 間に挿入することで、レベルシフタを介して、CON11 に接続した FMC モジュールと通信が可能となります。 +
+ジャンパーソケットを Pin 1-2 間に挿入すると、FTDI IC の Channel. A へ接続され、CON6 (USB Type.C) からアクセスが可能となります。 +
+また Pin 2-3 間に挿入することで、レベルシフタ (IC22, IC23) を介して、CON11 に接続した FMC モジュールと通信が可能となります。 +
 ジャンパーソケットがデフォルトで Pin 1-2 間へ挿入されており、2 x 6 サイズであるため、一度に6ピンの切り替えが可能です。
 
 image::JP13.svg[JP13.svg]
 
-[width="100%",cols="1,1,1,1,1",options="header",]
+[width="100%",cols="1,1,1,1,1",]
 |===
-|ピン名称 3+|ピン番号 |
-|REF |1 |2 |3 |I/O
+.2+|REF 3+|ピン番号 .2+|I/O 
+|1 |2 |3
 |JP13 |FTDI_JTAG_TMS |XCVE_JTAG_TMS |FMC_JTAG_TMS |Input
 |JP14 |FTDI_JTAG_TDI |XCVE_JTAG_TDI |FMC_JTAG_TDI |Input
 |JP15 |FTDI_JTAG_TDO |XCVE_JTAG_TDO |FMC_JTAG_TDO |Output
