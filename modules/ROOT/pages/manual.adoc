@@ -1,15 +1,3 @@
-== セット内容
-[width="100%",cols="2,1,1,1",options="header",]
-|===
-|品名 |型番 |メーカー |数量
-|SC-OBC Module V1 |RH2-OBC |Space Cubics |1
-|I/F ボード |SC-EVB-V1001 |Space Cubics |1
-|ACアダプター 12V/5A |ATS065T-P120 |Adapter Technology |1
-|USBケーブル Type A to Type C (0.5m) |U2C-AC05NBK |ELECOM |1
-|ネジ |B-0306-S1 |廣杉計器 |9
-|スペーサー |ASB-310E |廣杉計器 |9
-|===
-
 == 用語の定義
 [width="100%",cols="1,4",options="header",]
 |===
