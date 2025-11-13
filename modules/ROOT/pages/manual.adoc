@@ -48,11 +48,11 @@ image::Interface_Layout1.svg[Interface_Layout1.svg]
 |SW2 |Versal POR 制御スイッチ |タクトスイッチ |
 |SW3 |IGLOO2 POR 制御スイッチ |タクトスイッチ |
 |SW4 |I/F ボード主電源切り替えスイッチ |スライドスイッチ（SPDT） |
-|LED1 |Versal 起動状態表示インタフェース |LED (黄緑色) |
-|LED2 |Versal エラー状態表示インタフェース |LED (赤色) |
-|LED3 |1Gbps Ethernet リンク状態表示インタフェース |LED (黄緑色) |
-|LED4 |FMC モジュール電源供給 状態表示インタフェース |LED (黄緑色) |
-|LED5 |I/F ボード主電源供給 状態表示インタフェース |LED (黄緑色) |
+|LED1 |Versal 起動状態インジケータ |LED (黄緑色) |
+|LED2 |Versal エラー状態インジケータ |LED (赤色) |
+|LED3 |1Gbps Ethernet リンク状態インジケータ |LED (黄緑色) |
+|LED4 |FMC モジュール電源供給インジケータ |LED (黄緑色) |
+|LED5 |I/F ボード主電源供給インジケータ |LED (黄緑色) |
 |LED6~LED9 |USER LED |LED (黄緑色) |
 |===
 
@@ -538,24 +538,24 @@ SW4 は I/F ボードの主電源の ON/OFF の切り替えが可能なスライ
 
 image::SW4.svg[SW4.svg]
 
-=== Versal 起動状態表示インタフェース（LED1）
+=== Versal 起動状態インジケータ（LED1）
 LED1 は Versal の起動状態を示す黄緑色のインジケータです。 +
 POR (Power On Reset) により消灯し、PMC Start-up Flowchart に従って起動が正常に完了した場合に点灯します。
 
-=== Versal エラー状態表示インタフェース（LED2）
+=== Versal エラー状態インジケータ（LED2）
 LED2 は Versal のエラーの発生状態を示す赤色のインジケータです。 +
 正常に動作している場合は消灯し、エラーが発生した場合に点灯します。
 
-=== 1Gbps Ethernet リンク状態表示インタフェース（LED3）
+=== 1Gbps Ethernet リンク状態インジケータ（LED3）
 LED3 は CON10 での通信状態を示すインジケータです。 +
 1Gbps での Ethernet 通信が確立した場合に点灯します。 +
 10Mbps, 100Mbps の場合は消灯します。
 
-=== FMC モジュール電源供給 状態表示インタフェース（LED4）
+=== FMC モジュール電源供給インジケータ（LED4）
 LED4 は FMC モジュールへの電源供給の状態を示す黄緑色のインジケータです。 +
 I/F ボードから OBC へ電源が供給され、Versal の起動が完了し、FMC モジュールへの電源が正常に供給された場合、点灯します。
 
-=== I/F ボード主電源供給 状態表示インタフェース（LED5）
+=== I/F ボード主電源供給インジケータ（LED5）
 LED5 は主電源の供給状態を示す黄緑色のインジケータです。 +
 CON16 または CON20 から主電源が正常に供給された場合に点灯します。 +
 SW4 のトグルが『OFF』シルク側へ移動された場合、消灯します。 +
@@ -591,7 +591,7 @@ image::Interface_Layout2.svg[Interface_Layout2.svg]
 === Versal JTAG セレクタ（JP13~JP18）
 JP13~JP18 は Versal FPGA JTAG インタフェースの接続先を切り替えることが可能なインタフェースです。 +
 ジャンパーソケットを Pin 1-2 間に挿入すると、FTDI IC の Channel. A へ接続され、CON6 からアクセスが可能となります。 +
-また Pin 2-3 間に挿入することで、レベルシフタを介して CON11 に接続した FMC モジュールと通信が可能となります。 +
+また Pin 2-3 間に挿入することで、レベルシフタを介して、CON11 に接続した FMC モジュールと通信が可能となります。 +
 ジャンパーソケットがデフォルトで Pin 1-2 間へ挿入されており、2 x 6 サイズであるため、一度に6ピンの切り替えが可能です。
 
 image::JP13.svg[JP13.svg]
