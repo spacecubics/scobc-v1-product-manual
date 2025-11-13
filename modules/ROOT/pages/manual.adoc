@@ -505,13 +505,13 @@ SW1 は Versal の起動モードを制御するための DIP スイッチです
 [width="100%",cols="1,1,1,1,1",options="header",]
 |===
 |モード |ピン番号 |ピン名称 |I/O |電源グループ
-|MODE 0 |1, 8 |XCVE_MODE0 |Output |電源（VDD_5V0_CM）
-|MODE 1 |2, 7 |XCVE_MODE1 |Output |電源（VDD_5V0_CM）
-|MODE 2 |3, 6 |XCVE_MODE2 |Output |電源（VDD_5V0_CM）
-|MODE 3 |4, 5 |XCVE_MODE3 |Output |電源（VDD_5V0_CM）
+|MODE 0 |1, 8 |XCVE_MODE0 |Input |電源（VDD_5V0_CM）
+|MODE 1 |2, 7 |XCVE_MODE1 |Input |電源（VDD_5V0_CM）
+|MODE 2 |3, 6 |XCVE_MODE2 |Input |電源（VDD_5V0_CM）
+|MODE 3 |4, 5 |XCVE_MODE3 |Input |電源（VDD_5V0_CM）
 |===
 
-スイッチの設定により以下のように起動モードを設定することが可能です。
+スイッチの設定により、以下のように起動モードを設定することが可能です。
 
 [width="100%",cols="1,1,1,1,2",options="header",]
 |===
@@ -519,22 +519,22 @@ SW1 は Versal の起動モードを制御するための DIP スイッチです
 |ON |ON |ON |ON |JTAG
 |ON |OFF |ON |ON |QSPI32 (NOR Flash)
 |OFF |OFF |ON |ON |SD v3.0 (microSDカード)
-|その他の設定 | |禁止
+4+|その他の設定 |禁止
 |===
 
 image::SW1.svg[SW1.svg]
 
 === Versal POR 制御スイッチ（SW2）
-SW2 は Versal の External POR (Power On Reset) を制御可能なタクトスイッチです。 +
+SW2 は Versal の External POR (Power On Reset) の制御が可能なタクトスイッチです。 +
 SW2 を押すことで、Versal の全てのロジックとレジスタがリセットされ、PMC Start-up Flowchart に従って再起動します。
 
 === IGLOO2 POR 制御スイッチ（SW3）
-SW3 は IGLOO2 の POR (Power On Reset) を制御可能なタクトスイッチです。 +
+SW3 は IGLOO2 の POR (Power On Reset) の制御が可能なタクトスイッチです。 +
 SW3 を押すことで IGLOO2 の FPGA Fabric はリセットされ、Power-Up to Functional Time Sequence に従って再起動します。
 
 === I/F ボード主電源切り替えスイッチ（SW4）
 SW4 は I/F ボードの主電源の ON/OFF の切り替えが可能なスライドスイッチです。 +
-『ON』のシルクの方向へトグルを移動することで主電源が回路へ供給され、『OFF』のシルクの方向へ移動することで供給を遮断することが可能です。
+『ON』シルク側へトグルを移動させることで主電源が回路へ供給され、『OFF』シルク側へ移動させることで供給を切断することが可能です。
 
 image::SW4.svg[SW4.svg]
 
