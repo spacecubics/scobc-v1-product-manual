@@ -12,6 +12,7 @@
 |Versal PMC MIO 1 |OBC の Versal Bank 501 に属する Multiplexed I/O を示す。
 |Versal LPD MIO |OBC の Versal Bank 502 に属する Multiplexed I/O を示す。
 |Versal HDIO |OBC の Versal PL Bank 302 に属する低速の I/O を示す。
+|Versal XPIO |OBC の Versal PL Bank 703 に属する高速の I/O を示す。
 |IGLOO2 MSIO (Bank 5) |OBC の IGLOO2 Bank 5 に属する低速または高速の Multi-Standard I/O を示す。 
 |IGLOO2 MSIO (Bank 8) |OBC の IGLOO2 Bank 8 に属する低速または高速の Multi-Standard I/O を示す。
 |===
