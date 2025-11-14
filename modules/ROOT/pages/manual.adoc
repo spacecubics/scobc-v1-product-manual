@@ -843,7 +843,9 @@ image::JP57.svg[JP57.svg]
 |OFF : Disable ( Connect only to CON12 ) |ON : Enable ( Connect to CON19 )
 .3+|JP45~JP46 |CAN TERM .3+|ON
 |OFF : OPEN Termination |ON : 120ohm Termination
-.3+|JP47~JP48 |Versal PMC MIO 0/1 DIR .3+|OFF
+.3+|JP47 |Versal PMC MIO 0 DIR .3+|OFF
+|OFF : From CON12 to Versal |ON : From Versal to CON12
+.3+|JP48 |Versal PMC MIO 1 DIR .3+|OFF
 |OFF : From CON12 to Versal |ON : From Versal to CON12
 .5+|JP49~JP52 |Versal VCCO 302 .5+|JP49
 |JP49 : VDD_3V3_C |JP50 : VDD_3V3_M |JP51 : VDD_1V8_M |JP52 : VDD_1V2_M
