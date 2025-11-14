@@ -149,14 +149,13 @@ FTDI IC が搭載されており、以下のデバック方法の選択が可能
 
 ==== Versal FPGA JTAG
 Versal の FPGA JTAG インタフェースです。 +
-FTDI IC の Channel. A に接続可能であり、JP13~JP18 に挿入されているジャンパーソケットを『FTDI』シルク側へ切り替えることで利用が可能です。
+JP13~JP18 に挿入されているジャンパーソケットを『FTDI』シルク側へ切り替えると、FTDI IC の Channel. A に接続され、利用が可能となります。
 
 ==== Versal APU/RPU Console
 Versal の APU/RPU のコンソールです。 +
-FTDI IC の Channel. B および C へ、Versal の UART0 または UART1 にマッピングされたシリアル通信信号の接続が可能です。 +
-接続可能なシリアル通信信号には Versal LPD MIO と Versal HDIO の 2種類があります。 +
-各々の Channel に対して、JP19~JP24 に挿入されているジャンパーソケットを切り替えることにより、2種類の内 一方を選択して接続することが可能です。 +
-各々のシリアル通信信号は独立しているため、一方のシリアル通信信号がテストで使用されることになっても、もう一方をコンソールとして利用することが可能です。
+JP19~JP24 に挿入されているジャンパーソケットを切り替えることにより、FTDI IC へ  Versal の UART にマッピングされたシリアル通信信号が接続され、利用が可能となります。 +
+FTDI IC の Channel. B には Versal の UART0、Channel. C には UART1 が接続されます。 +
+またシリアル通信信号には Versal LPD MIO と Versal HDIO の 2種類があり、各々が独立しているため、一方のシリアル通信信号がテストで使用されることになっても、もう一方をコンソールとして利用することが可能です。
 
 [width="100%",cols="1,1,1,1",options="header",]
 |===
@@ -167,18 +166,18 @@ FTDI IC の Channel. B および C へ、Versal の UART0 または UART1 にマ
 
 ==== IGLOO2 Safety Processor Telemetry/Telecommand
 IGLOO2 の UART を利用し、OBC からの Telemetry 信号によるモニタ、または OBC への Telecommand 信号によるモード変更が可能です。 +
-FTDI IC の Channel. D に接続可能であり、JP25~JP29 をに挿入されているジャンパーソケットを『FTDI』シルク側へ切り替えることで利用が可能です。
+JP25~JP29 に挿入されているジャンパーソケットを『FTDI』シルク側へ切り替えると、FTDI IC の Channel. D に接続され、利用が可能となります。
 
 ==== Versal SmartLynq+ HSDP
 Versal の HSDP (High-Speed Debug Port) を使用し、AMD社製 SmartLynq+ モジュールを介して高速デバックおよびトレースが可能です。 +
-JP34 へジャンパーソケットを挿入することで利用が可能です。
+JP34 へジャンパーソケットを挿入することで利用が可能となります。
 
 === Versal Reserve インタフェース (CON7)
 CON7 には Versal PMC MIO 1 が接続されています。 +
 CON7 に繋がる MIO は、SD カードインタフェースとの間にレベルシフタを設ける場合、その通信方向を制御する目的で使用されます。 +
 I/F ボードでは、双方向通信が可能なレベルシフタを採用しており、本機能は不要となるため Reserve としています。
 
-[width="100%",cols="1,2,1,1,2",options="header",]
+[width="100%",cols="1,1,1,1,2",options="header",]
 |===
 |ピン番号 |ピン名称 |I/O |電源グループ |説明
 |1 |PMC_MIO46_SD0_DIRC |Output |VDD_1V8_PMC |Versal (PMC_501_MIO46) へ接続
