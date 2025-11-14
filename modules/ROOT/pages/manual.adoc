@@ -719,7 +719,7 @@ image::JP35.svg[JP35.svg]
 
 === Versal Bank 502 電源セレクタ (JP38~JP41)
 JP38~JP41 は、Versal LPD MIO の電源ドメインを切り替えることが可能なインタフェースです。 +
-デフォルトは JP38 の電源が選択されています。 +
+デフォルトは JP40 の電源が選択されています。 +
 電源の割り当ては下表を参照してください。 +
 ここで選択した電圧が CON12 にも供給されます。 +
 なお、CON10 (Ethernet) または CON19 (CAN) を使用する場合、1.8V 以上の電圧を選択してください。
@@ -805,7 +805,7 @@ image::JP53.svg[JP53.svg]
 JP57~JP58 は、FMC モジュールに接続される Versal XPIO および IGLOO2 MSIO (Bank 8) の電源ドメインを選択できるインタフェースです。 +
 CON11 の VADJ 端子へも同様に供給されるため、ここで選択した電源ドメインで通信が可能となります。 +
 他の電源セレクタと異なり、Switching Regulator の Feedback 抵抗を変化させることで電圧を変化させているため、JP57 と JP58 の両方にジャンパーソケットを挿入した場合、意図しない電圧となることに注意が必要です。 +
-デフォルトは JP57 へジャンパーソケットが挿入されています。
+デフォルトは JP58 へジャンパーソケットが挿入されています。
 
 image::JP57.svg[JP57.svg]
 
@@ -837,7 +837,7 @@ image::JP57.svg[JP57.svg]
 |OFF : Disable ( Connect to FMC ) |ON : Enable
 .3+|JP35~JP37 |FMC I2C .3+|ON
 |OFF : Disable ( Connect only to CON12 ) |ON : Enable ( Connect to FMC )
-.5+|JP38~JP41 |Versal VCCO 502 .5+|JP38
+.5+|JP38~JP41 |Versal VCCO 502 .5+|JP40
 |JP38 : VDD_3V3_C |JP39 : VDD_3V3_M |JP40 : VDD_1V8_M |JP41 : VDD_1V2_M
 .3+|JP42~JP44 |CAN .3+|ON
 |OFF : Disable ( Connect only to CON12 ) |ON : Enable ( Connect to CON19 )
@@ -849,7 +849,7 @@ image::JP57.svg[JP57.svg]
 |JP49 : VDD_3V3_C |JP50 : VDD_3V3_M |JP51 : VDD_1V8_M |JP52 : VDD_1V2_M
 .5+|JP53~JP56 |IGLOO2 VDDI 5 .5+|JP53
 |JP53 : VDD_3V3_C |JP54 : VDD_3V3_M |JP55 : VDD_1V8_M |JP56 : VDD_1V2_M
-.3+|JP57~JP58 |FMC VADJ ( Versal VCCO 703 / IGLOO2 VDDI 8 ) .3+|1.2V
-|1.2V : JP57=ON, JP58=OFF |1.5V : JP57=OFF, JP58=ON
+.3+|JP57~JP58 |FMC VADJ ( Versal VCCO 703 / IGLOO2 VDDI 8 ) .3+|JP58
+|JP57 : 1.2V |JP58 : 1.5V
 |===
 NOTE: ON : Insert Jumper / OFF : Remove Jumper
