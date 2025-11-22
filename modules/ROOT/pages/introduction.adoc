@@ -1,0 +1,10 @@
+== Introduction
+
+SC-OBC Module V1 は、地球周回衛星、静止衛星、月探査ミッション (月軌道衛星、ランダー、月面ローバー)などの宇宙ミッション向けに設計された高性能 On Board Computerです。
+
+メインプロセッサには AMD Versal AI Edgeシリーズ VE2302を採用しています。
+AMD Versal は、CPU・FPGA・AI Engine を組み合わせたHeterogeneous computing architectureを実装する高性能デバイスであり(Adaptive SoC)、光学センサ、SAR、LiDAR などの大規模センサデータの入力前処理、ハードウェアアクセラレーション、ベクトル演算、大容量データの保存を効率的に実行できます。
+
+SC-OBC Module V1には、メインプロセッサとは別にシステム管理を行うセーフティプロセッサとして Microchip IGLOO2搭載しており、Versalの動作状態を監視します。
+
+ハードウェアは耐放射線デバイスと高い放射線耐性が確認された産業用部品で構成されているため宇宙環境でも高い信頼性を確保します。

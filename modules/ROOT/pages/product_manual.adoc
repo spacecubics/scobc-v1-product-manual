@@ -1,0 +1,6 @@
+:sectnum:
+:stem: latexmath
+
+= SC-OBC Module V1 Product Manual
+
+include::introduction.adoc[]
