@@ -37,6 +37,26 @@ _PWREN ラインがアサートされている場合、キャリアボードは�
 * VCCO_302_703_PWREN は VCCO_302_IN と VCCO_703_IN の両方を制御
 * VCCO_502_PWREN は VCCO_502_IN を制御
 
+.Power Input/Output List
+[cols=","]
+|===
+|IO Bank Power Input |Power Enable Signal
+
+|VCCO_502_IN
+|VCCO_502_PWREN
+
+|VCCO_302_IN
+.2+|VCCO_302_703_PWREN
+
+|VCCO_703_IN
+
+|M2GL_VDDI5_IN
+|N/A
+
+|M2GL_VDDI8_IN
+|N/A
+
+|===
 
 ==== キャリアボード上での LPD MIO 接続回路例
 
