@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Microsoft Visio、SVG Export により生成 power-control-by-pwren-signals.svg ページ - 1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.73656in" height="4.33719in"
+		viewBox="0 0 341.032 312.278" xml:space="preserve" color-interpolation-filters="sRGB" class="st16">
+	<v:documentProperties v:langID="1041" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#000000;font-family:Meiryo UI;font-size:0.666664em}
+		.st4 {fill:#000000;font-family:Meiryo UI;font-size:0.75em}
+		.st5 {stroke:#000000;stroke-dasharray:0.75,1.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st7 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st8 {font-size:1em}
+		.st9 {marker-end:url(#mrkr5-106);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st10 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.35714285714286}
+		.st11 {fill:#000000;font-family:メイリオ;font-size:0.666664em}
+		.st12 {fill:#000000;font-family:メイリオ;font-size:0.666664em;font-style:italic}
+		.st13 {fill:#000000;font-family:Meiryo UI;font-size:0.416656em;font-style:italic}
+		.st14 {marker-end:url(#mrkr10-211);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st15 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.40983606557377}
+		.st16 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-106" class="st10" v:arrowType="5" v:arrowSize="1" v:setback="4.9" refX="-4.9" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.8,-2.8) "/>
+		</marker>
+		<g id="lend10">
+			<path
+					d="M 0 0.75 C -0.414214 0.75 -0.75 0.414214 -0.75 0 -0.75 -0.414214 -0.414214 -0.75 0 -0.75 0.414214 -0.75 0.75 -0.414214 0.75 0 0.75 0.414214 0.414214 0.75 0 0.75 Z "
+					style="stroke:none"/>
+		</g>
+		<marker id="mrkr10-211" class="st15" v:arrowType="10" v:arrowSize="0" v:setback="1.83" refX="-1.83" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend10" transform="scale(-2.44,-2.44) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>ページ - 1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape17-1" v:mID="17" v:groupContext="shape" transform="translate(105.257,-289.225)">
+			<title>シート.17</title>
+			<path d="M0 312.28 L36.85 312.28" class="st1"/>
+		</g>
+		<g id="shape18-4" v:mID="18" v:groupContext="shape" transform="translate(0.375,-288.82)">
+			<title>シート.18</title>
+			<desc>VCCO_502_PWREN</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="305.191" width="85.04" height="14.1732"/>
+			<rect x="0" y="298.104" width="85.0394" height="14.1732" class="st2"/>
+			<text x="4" y="307.59" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>VCCO_502_PWREN</text>		</g>
+		<g id="shape19-7" v:mID="19" v:groupContext="shape" transform="translate(-164.106,-38.1905) rotate(-78.6901)">
+			<title>シート.19</title>
+			<path d="M0 312.28 L14.45 312.28" class="st1"/>
+		</g>
+		<g id="shape20-10" v:mID="20" v:groupContext="shape" transform="translate(144.942,-303.399)">
+			<title>シート.20</title>
+			<path d="M0 312.28 L195.59 312.28" class="st1"/>
+		</g>
+		<g id="shape23-13" v:mID="23" v:groupContext="shape" transform="translate(0.375,-255.21)">
+			<title>シート.23</title>
+			<desc>VCCO_502_IN</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="305.191" width="85.04" height="14.1732"/>
+			<rect x="0" y="298.104" width="85.0394" height="14.1732" class="st2"/>
+			<text x="4" y="307.89" class="st4" v:langID="1041"><v:paragraph/><v:tabList/>VCCO_502_IN</text>		</g>
+		<g id="shape24-16" v:mID="24" v:groupContext="shape" transform="translate(105.257,-255.21)">
+			<title>シート.24</title>
+			<path d="M0 312.28 L42.52 312.28" class="st1"/>
+		</g>
+		<g id="shape25-19" v:mID="25" v:groupContext="shape" transform="translate(-152.486,-28.7213) rotate(-74.0546)">
+			<title>シート.25</title>
+			<path d="M0 312.28 L20.64 312.28" class="st1"/>
+		</g>
+		<g id="shape26-22" v:mID="26" v:groupContext="shape" transform="translate(153.446,-275.052)">
+			<title>シート.26</title>
+			<path d="M0 312.28 L187.09 312.28" class="st1"/>
+		</g>
+		<g id="shape28-25" v:mID="28" v:groupContext="shape" transform="translate(460.054,0.375) rotate(90)">
+			<title>シート.28</title>
+			<path d="M0 312.28 L65.7 312.28" class="st5"/>
+		</g>
+		<g id="shape29-28" v:mID="29" v:groupContext="shape" transform="translate(104.488,-218.46) rotate(-0.141121)">
+			<title>シート.29</title>
+			<path d="M0 312.28 L164.41 312.28" class="st1"/>
+		</g>
+		<g id="shape30-31" v:mID="30" v:groupContext="shape" transform="translate(0.375,-218.46)">
+			<title>シート.30</title>
+			<desc>VCCO_302_703_PWREN</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="52.4409" cy="305.191" width="104.89" height="14.1732"/>
+			<rect x="0" y="298.104" width="104.882" height="14.1732" class="st2"/>
+			<text x="4" y="307.59" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>VCCO_302_703_PWREN</text>		</g>
+		<g id="shape31-34" v:mID="31" v:groupContext="shape" transform="translate(-36.547,32.1695) rotate(-78.6901)">
+			<title>シート.31</title>
+			<path d="M0 312.28 L14.45 312.28" class="st1"/>
+		</g>
+		<g id="shape32-37" v:mID="32" v:groupContext="shape" transform="translate(272.501,-233.039)">
+			<title>シート.32</title>
+			<path d="M0 312.28 L68.03 312.28" class="st1"/>
+		</g>
+		<g id="shape33-40" v:mID="33" v:groupContext="shape" transform="translate(0.375,-184.85)">
+			<title>シート.33</title>
+			<desc>VCCO_302_IN</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="305.191" width="85.04" height="14.1732"/>
+			<rect x="0" y="298.104" width="85.0394" height="14.1732" class="st2"/>
+			<text x="4" y="307.89" class="st4" v:langID="1041"><v:paragraph/><v:tabList/>VCCO_302_IN</text>		</g>
+		<g id="shape34-43" v:mID="34" v:groupContext="shape" transform="translate(105.257,-184.85)">
+			<title>シート.34</title>
+			<path d="M0 312.28 L170.08 312.28" class="st1"/>
+		</g>
+		<g id="shape35-46" v:mID="35" v:groupContext="shape" transform="translate(-24.9267,41.6386) rotate(-74.0546)">
+			<title>シート.35</title>
+			<path d="M0 312.28 L20.64 312.28" class="st1"/>
+		</g>
+		<g id="shape36-49" v:mID="36" v:groupContext="shape" transform="translate(281.005,-204.692)">
+			<title>シート.36</title>
+			<path d="M0 312.28 L59.53 312.28" class="st1"/>
+		</g>
+		<g id="shape37-52" v:mID="37" v:groupContext="shape" transform="translate(587.613,70.735) rotate(90)">
+			<title>シート.37</title>
+			<path d="M0 312.28 L93.86 312.28" class="st5"/>
+		</g>
+		<g id="shape38-55" v:mID="38" v:groupContext="shape" transform="translate(527.266,78.9481) rotate(104.036)">
+			<title>シート.38</title>
+			<path d="M0 312.28 L23.38 312.28" class="st6"/>
+		</g>
+		<g id="shape39-58" v:mID="39" v:groupContext="shape" transform="translate(528.582,78.9481) rotate(104.036)">
+			<title>シート.39</title>
+			<path d="M0 312.28 L23.38 312.28" class="st6"/>
+		</g>
+		<g id="shape40-61" v:mID="40" v:groupContext="shape" transform="translate(531.563,88.1973) rotate(100.397)">
+			<title>シート.40</title>
+			<path d="M0 312.28 L31.41 312.28" class="st6"/>
+		</g>
+		<g id="shape41-64" v:mID="41" v:groupContext="shape" transform="translate(532.879,88.1973) rotate(100.397)">
+			<title>シート.41</title>
+			<path d="M0 312.28 L31.41 312.28" class="st6"/>
+		</g>
+		<g id="shape42-67" v:mID="42" v:groupContext="shape" transform="translate(527.266,151.232) rotate(104.036)">
+			<title>シート.42</title>
+			<path d="M0 312.28 L23.38 312.28" class="st6"/>
+		</g>
+		<g id="shape43-70" v:mID="43" v:groupContext="shape" transform="translate(528.582,151.232) rotate(104.036)">
+			<title>シート.43</title>
+			<path d="M0 312.28 L23.38 312.28" class="st6"/>
+		</g>
+		<g id="shape44-73" v:mID="44" v:groupContext="shape" transform="translate(531.563,160.481) rotate(100.397)">
+			<title>シート.44</title>
+			<path d="M0 312.28 L31.41 312.28" class="st6"/>
+		</g>
+		<g id="shape45-76" v:mID="45" v:groupContext="shape" transform="translate(532.879,160.481) rotate(100.397)">
+			<title>シート.45</title>
+			<path d="M0 312.28 L31.41 312.28" class="st6"/>
+		</g>
+		<g id="shape46-79" v:mID="46" v:groupContext="shape" transform="translate(164.501,-99.3041)">
+			<title>シート.46</title>
+			<desc>Power Switch</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.8425" cy="293.852" width="39.69" height="36.8504"/>
+			<rect x="0" y="275.427" width="39.685" height="36.8504" class="st7"/>
+			<text x="7.79" y="291.45" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Power<v:newlineChar/><tspan
+						x="6.94" dy="1.2em" class="st8">Switch</tspan></text>		</g>
+		<g id="shape48-83" v:mID="48" v:groupContext="shape" transform="translate(0.375004,-153.102)">
+			<title>シート.48</title>
+			<desc>VCCO_703_IN</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="305.191" width="85.04" height="14.1732"/>
+			<rect x="0" y="298.104" width="85.0394" height="14.1732" class="st2"/>
+			<text x="4" y="307.89" class="st4" v:langID="1041"><v:paragraph/><v:tabList/>VCCO_703_IN</text>		</g>
+		<g id="shape49-86" v:mID="49" v:groupContext="shape" transform="translate(105.257,-153.102)">
+			<title>シート.49</title>
+			<path d="M0 312.28 L170.08 312.28" class="st1"/>
+		</g>
+		<g id="shape50-89" v:mID="50" v:groupContext="shape" transform="translate(-24.9267,73.3867) rotate(-74.0546)">
+			<title>シート.50</title>
+			<path d="M0 312.28 L20.64 312.28" class="st1"/>
+		</g>
+		<g id="shape51-92" v:mID="51" v:groupContext="shape" transform="translate(281.005,-172.944)">
+			<title>シート.51</title>
+			<path d="M0 312.28 L59.53 312.28" class="st1"/>
+		</g>
+		<g id="shape52-95" v:mID="52" v:groupContext="shape" transform="translate(531.563,192.229) rotate(100.397)">
+			<title>シート.52</title>
+			<path d="M0 312.28 L31.41 312.28" class="st6"/>
+		</g>
+		<g id="shape53-98" v:mID="53" v:groupContext="shape" transform="translate(532.879,192.229) rotate(100.397)">
+			<title>シート.53</title>
+			<path d="M0 312.28 L31.41 312.28" class="st6"/>
+		</g>
+		<g id="shape54-101" v:mID="54" v:groupContext="shape" transform="translate(136.155,-107.808)">
+			<title>シート.54</title>
+			<path d="M0 312.28 L23.45 312.28" class="st9"/>
+		</g>
+		<g id="shape55-107" v:mID="55" v:groupContext="shape" transform="translate(136.155,-127.651)">
+			<title>シート.55</title>
+			<path d="M0 312.28 L23.45 312.28" class="st9"/>
+		</g>
+		<g id="shape56-112" v:mID="56" v:groupContext="shape" transform="translate(51.1152,-121.981)">
+			<title>シート.56</title>
+			<desc>VCCO_502_PWREN</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="306.608" width="85.04" height="11.3386"/>
+			<rect x="0" y="300.939" width="85.0394" height="11.3386" class="st2"/>
+			<text x="4.38" y="309.01" class="st11" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>VCCO_502_PWREN</text>		</g>
+		<g id="shape58-115" v:mID="58" v:groupContext="shape" transform="translate(73.7923,-102.139)">
+			<title>シート.58</title>
+			<desc>Power Source</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="306.608" width="62.37" height="11.3386"/>
+			<rect x="0" y="300.939" width="62.3622" height="11.3386" class="st2"/>
+			<text x="4.8" y="309.01" class="st12" v:langID="1041"><v:paragraph v:horizAlign="2"/><v:tabList/>Power Source</text>		</g>
+		<g id="shape59-118" v:mID="59" v:groupContext="shape" transform="translate(204.186,-127.651)">
+			<title>シート.59</title>
+			<path d="M0 312.28 L34.79 312.28" class="st9"/>
+		</g>
+		<g id="shape60-123" v:mID="60" v:groupContext="shape" transform="translate(138.989,-127.651)">
+			<title>シート.60</title>
+			<desc>enable</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="12.7559" cy="308.026" width="25.52" height="8.50394"/>
+			<rect x="0" y="303.774" width="25.5118" height="8.50394" class="st2"/>
+			<text x="4.74" y="309.53" class="st13" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>enable</text>		</g>
+		<g id="shape62-126" v:mID="62" v:groupContext="shape" transform="translate(144.658,-107.808)">
+			<title>シート.62</title>
+			<desc>Vin</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="9.92126" cy="308.026" width="19.85" height="8.50394"/>
+			<rect x="0" y="303.774" width="19.8425" height="8.50394" class="st2"/>
+			<text x="6.03" y="309.53" class="st13" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Vin</text>		</g>
+		<g id="shape63-129" v:mID="63" v:groupContext="shape" transform="translate(204.186,-127.651)">
+			<title>シート.63</title>
+			<desc>Vout</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="9.92126" cy="308.026" width="19.85" height="8.50394"/>
+			<rect x="0" y="303.774" width="19.8425" height="8.50394" class="st2"/>
+			<text x="4.25" y="309.53" class="st13" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Vout</text>		</g>
+		<g id="shape64-132" v:mID="64" v:groupContext="shape" transform="translate(243.871,-120.564)">
+			<title>シート.64</title>
+			<desc>VCCO_502_IN</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.8504" cy="305.191" width="73.71" height="14.1732"/>
+			<rect x="0" y="298.104" width="73.7008" height="14.1732" class="st2"/>
+			<text x="4" y="307.89" class="st4" v:langID="1041"><v:paragraph/><v:tabList/>VCCO_502_IN</text>		</g>
+		<g id="shape65-135" v:mID="65" v:groupContext="shape" transform="translate(164.501,-45.4459)">
+			<title>シート.65</title>
+			<desc>Power Switch</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.8425" cy="293.852" width="39.69" height="36.8504"/>
+			<rect x="0" y="275.427" width="39.685" height="36.8504" class="st7"/>
+			<text x="7.79" y="291.45" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Power<v:newlineChar/><tspan
+						x="6.94" dy="1.2em" class="st8">Switch</tspan></text>		</g>
+		<g id="shape66-139" v:mID="66" v:groupContext="shape" transform="translate(136.155,-53.9498)">
+			<title>シート.66</title>
+			<path d="M0 312.28 L23.45 312.28" class="st9"/>
+		</g>
+		<g id="shape67-144" v:mID="67" v:groupContext="shape" transform="translate(136.155,-73.7923)">
+			<title>シート.67</title>
+			<path d="M0 312.28 L23.45 312.28" class="st9"/>
+		</g>
+		<g id="shape68-149" v:mID="68" v:groupContext="shape" transform="translate(31.2726,-68.123)">
+			<title>シート.68</title>
+			<desc>VCCO_302_703_PWREN</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="52.4409" cy="306.608" width="104.89" height="11.3386"/>
+			<rect x="0" y="300.939" width="104.882" height="11.3386" class="st2"/>
+			<text x="4.37" y="309.01" class="st11" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>VCCO_302_703_PWREN</text>		</g>
+		<g id="shape69-152" v:mID="69" v:groupContext="shape" transform="translate(73.7923,-48.2805)">
+			<title>シート.69</title>
+			<desc>Power Source</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="306.608" width="62.37" height="11.3386"/>
+			<rect x="0" y="300.939" width="62.3622" height="11.3386" class="st2"/>
+			<text x="4.8" y="309.01" class="st12" v:langID="1041"><v:paragraph v:horizAlign="2"/><v:tabList/>Power Source</text>		</g>
+		<g id="shape70-155" v:mID="70" v:groupContext="shape" transform="translate(204.186,-73.7923)">
+			<title>シート.70</title>
+			<path d="M0 312.28 L34.79 312.28" class="st9"/>
+		</g>
+		<g id="shape71-160" v:mID="71" v:groupContext="shape" transform="translate(138.989,-73.7923)">
+			<title>シート.71</title>
+			<desc>enable</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="12.7559" cy="308.026" width="25.52" height="8.50394"/>
+			<rect x="0" y="303.774" width="25.5118" height="8.50394" class="st2"/>
+			<text x="4.74" y="309.53" class="st13" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>enable</text>		</g>
+		<g id="shape72-163" v:mID="72" v:groupContext="shape" transform="translate(144.658,-53.9498)">
+			<title>シート.72</title>
+			<desc>Vin</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="9.92126" cy="308.026" width="19.85" height="8.50394"/>
+			<rect x="0" y="303.774" width="19.8425" height="8.50394" class="st2"/>
+			<text x="6.03" y="309.53" class="st13" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Vin</text>		</g>
+		<g id="shape73-166" v:mID="73" v:groupContext="shape" transform="translate(204.186,-73.7923)">
+			<title>シート.73</title>
+			<desc>Vout</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="9.92126" cy="308.026" width="19.85" height="8.50394"/>
+			<rect x="0" y="303.774" width="19.8425" height="8.50394" class="st2"/>
+			<text x="4.25" y="309.53" class="st13" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Vout</text>		</g>
+		<g id="shape74-169" v:mID="74" v:groupContext="shape" transform="translate(243.871,-66.7057)">
+			<title>シート.74</title>
+			<desc>VCCO_302_IN</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.8504" cy="305.191" width="73.71" height="14.1732"/>
+			<rect x="0" y="298.104" width="73.7008" height="14.1732" class="st2"/>
+			<text x="4" y="307.89" class="st4" v:langID="1041"><v:paragraph/><v:tabList/>VCCO_302_IN</text>		</g>
+		<g id="shape75-172" v:mID="75" v:groupContext="shape" transform="translate(164.501,-0.375)">
+			<title>シート.75</title>
+			<desc>Power Switch</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.8425" cy="293.852" width="39.69" height="36.8504"/>
+			<rect x="0" y="275.427" width="39.685" height="36.8504" class="st7"/>
+			<text x="7.79" y="291.45" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Power<v:newlineChar/><tspan
+						x="6.94" dy="1.2em" class="st8">Switch</tspan></text>		</g>
+		<g id="shape76-176" v:mID="76" v:groupContext="shape" transform="translate(136.155,-8.87894)">
+			<title>シート.76</title>
+			<path d="M0 312.28 L23.45 312.28" class="st9"/>
+		</g>
+		<g id="shape77-181" v:mID="77" v:groupContext="shape" transform="translate(140.79,-28.6242) rotate(-0.241753)">
+			<title>シート.77</title>
+			<path d="M0 312.28 L17.49 312.28" class="st9"/>
+		</g>
+		<g id="shape79-186" v:mID="79" v:groupContext="shape" transform="translate(73.7923,-3.20965)">
+			<title>シート.79</title>
+			<desc>Power Source</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="306.608" width="62.37" height="11.3386"/>
+			<rect x="0" y="300.939" width="62.3622" height="11.3386" class="st2"/>
+			<text x="4.8" y="309.01" class="st12" v:langID="1041"><v:paragraph v:horizAlign="2"/><v:tabList/>Power Source</text>		</g>
+		<g id="shape80-189" v:mID="80" v:groupContext="shape" transform="translate(204.186,-28.7215)">
+			<title>シート.80</title>
+			<path d="M0 312.28 L34.79 312.28" class="st9"/>
+		</g>
+		<g id="shape81-194" v:mID="81" v:groupContext="shape" transform="translate(138.989,-28.7215)">
+			<title>シート.81</title>
+			<desc>enable</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="12.7559" cy="308.026" width="25.52" height="8.50394"/>
+			<rect x="0" y="303.774" width="25.5118" height="8.50394" class="st2"/>
+			<text x="4.74" y="309.53" class="st13" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>enable</text>		</g>
+		<g id="shape82-197" v:mID="82" v:groupContext="shape" transform="translate(144.658,-8.87894)">
+			<title>シート.82</title>
+			<desc>Vin</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="9.92126" cy="308.026" width="19.85" height="8.50394"/>
+			<rect x="0" y="303.774" width="19.8425" height="8.50394" class="st2"/>
+			<text x="6.03" y="309.53" class="st13" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Vin</text>		</g>
+		<g id="shape83-200" v:mID="83" v:groupContext="shape" transform="translate(204.186,-28.7215)">
+			<title>シート.83</title>
+			<desc>Vout</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="9.92126" cy="308.026" width="19.85" height="8.50394"/>
+			<rect x="0" y="303.774" width="19.8425" height="8.50394" class="st2"/>
+			<text x="4.25" y="309.53" class="st13" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Vout</text>		</g>
+		<g id="shape84-203" v:mID="84" v:groupContext="shape" transform="translate(243.871,-21.6348)">
+			<title>シート.84</title>
+			<desc>VCCO_703_IN</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.8504" cy="305.191" width="73.71" height="14.1732"/>
+			<rect x="0" y="298.104" width="73.7008" height="14.1732" class="st2"/>
+			<text x="4" y="307.89" class="st4" v:langID="1041"><v:paragraph/><v:tabList/>VCCO_703_IN</text>		</g>
+		<g id="shape85-206" v:mID="85" v:groupContext="shape" transform="translate(-170.17,283.651) rotate(-90)">
+			<title>シート.85</title>
+			<path d="M0 312.28 L43.34 312.28" class="st14"/>
+		</g>
+	</g>
+</svg>

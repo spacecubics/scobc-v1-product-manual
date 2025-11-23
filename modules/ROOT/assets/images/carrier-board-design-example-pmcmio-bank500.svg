@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Microsoft Visio、SVG Export により生成 carrier-board-circuit-design-example-pmcmio-bank500.svg ページ - 1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.89427in" height="1.46711in"
+		viewBox="0 0 280.388 105.632" xml:space="preserve" color-interpolation-filters="sRGB" class="st16">
+	<v:documentProperties v:langID="1041" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {marker-end:url(#mrkr5-6);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st2 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.45454545454545}
+		.st3 {fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:#000000;font-family:メイリオ;font-size:0.75em}
+		.st6 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {fill:#000000;font-family:メイリオ;font-size:0.666664em}
+		.st8 {fill:#000000;font-family:メイリオ;font-size:0.625008em}
+		.st9 {marker-end:url(#mrkr5-31);marker-start:url(#mrkr5-29);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st10 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.35714285714286}
+		.st11 {font-size:1em}
+		.st12 {fill:#000000;font-family:メイリオ;font-size:0.499992em}
+		.st13 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st14 {fill:#000000;font-family:Meiryo UI;font-size:0.666664em}
+		.st15 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st16 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-6" class="st2" v:arrowType="5" v:arrowSize="1" v:setback="3.85" refX="-3.85" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.2,-2.2) "/>
+		</marker>
+		<marker id="mrkr5-29" class="st10" v:arrowType="5" v:arrowSize="1" v:setback="4.54" refX="4.54" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(2.8) "/>
+		</marker>
+		<marker id="mrkr5-31" class="st10" v:arrowType="5" v:arrowSize="1" v:setback="4.9" refX="-4.9" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.8,-2.8) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>ページ - 1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape29-1" v:mID="29" v:groupContext="shape" transform="translate(124.107,-8.87894)">
+			<title>シート.29</title>
+			<path d="M0 105.63 L107.61 105.63" class="st1"/>
+		</g>
+		<g id="shape62-7" v:mID="62" v:groupContext="shape" transform="translate(0.375,-0.375)">
+			<title>シート.62</title>
+			<rect x="0" y="12.0886" width="123.732" height="93.5433" class="st3"/>
+		</g>
+		<g id="shape19-9" v:mID="19" v:groupContext="shape" transform="translate(42.8947,-93.9183)">
+			<title>シート.19</title>
+			<desc>SC-OBC Module V1</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="46.2756" cy="99.9626" width="92.56" height="11.3386"/>
+			<rect x="0" y="94.2933" width="92.5512" height="11.3386" class="st4"/>
+			<text x="4.34" y="102.66" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>SC-OBC Module V1</text>		</g>
+		<g id="shape28-12" v:mID="28" v:groupContext="shape" transform="translate(237.493,-0.375)">
+			<title>シート.28</title>
+			<desc>eMMC</desc>
+			<v:textBlock v:margins="rect(2,0,2,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="63.1122" width="42.52" height="85.0394"/>
+			<rect x="0" y="20.5925" width="42.5197" height="85.0394" class="st6"/>
+			<text x="9.62" y="65.51" class="st7" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>eMMC</text>		</g>
+		<g id="shape30-15" v:mID="30" v:groupContext="shape" transform="translate(124.107,-37.2254)">
+			<title>シート.30</title>
+			<path d="M0 105.63 L107.61 105.63" class="st1"/>
+		</g>
+		<g id="shape31-20" v:mID="31" v:groupContext="shape" transform="translate(36.2333,-31.5561)">
+			<title>シート.31</title>
+			<desc>VCCO_500_501_OUT</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="43.937" cy="99.9626" width="87.88" height="11.3386"/>
+			<rect x="0" y="94.2933" width="87.874" height="11.3386" class="st4"/>
+			<text x="4.54" y="102.21" class="st8" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>VCCO_500_501_OUT</text>		</g>
+		<g id="shape32-23" v:mID="32" v:groupContext="shape" transform="translate(237.493,137.188) rotate(180)">
+			<title>シート.32</title>
+			<path d="M4.54 105.63 L4.9 105.63 L108.49 105.63" class="st9"/>
+		</g>
+		<g id="shape33-32" v:mID="33" v:groupContext="shape" transform="translate(70.249,-65.5718)">
+			<title>シート.33</title>
+			<desc>SD/eMMC (Bank 500)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.9291" cy="97.128" width="53.86" height="17.0079"/>
+			<rect x="0" y="88.624" width="53.8583" height="17.0079" class="st4"/>
+			<text x="7.96" y="94.73" class="st7" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>SD/eMMC<v:newlineChar/><tspan
+						x="4.91" dy="1.2em" class="st11">(Bank 500)</tspan></text>		</g>
+		<g id="shape35-36" v:mID="35" v:groupContext="shape" transform="translate(0.375,-48.564)">
+			<title>シート.35</title>
+			<desc>Bank 500 PMC MIO</desc>
+			<v:textBlock v:margins="rect(4,0,4,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="18.0557" cy="95.7106" width="36.12" height="19.8425"/>
+			<rect x="0" y="85.7894" width="36.1114" height="19.8425" class="st4"/>
+			<text x="4.18" y="93.91" class="st12" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Bank 500<v:newlineChar/><tspan
+						x="4.75" dy="1.2em" class="st11">PMC MIO</tspan></text>		</g>
+		<g id="shape36-40" v:mID="36" v:groupContext="shape" transform="translate(47.5718,-0.375)">
+			<title>シート.36</title>
+			<path d="M0 12.09 L76.54 12.09 L76.54 105.63 L0 105.63" class="st13"/>
+		</g>
+		<g id="shape37-43" v:mID="37" v:groupContext="shape" transform="translate(51.8238,-3.20965)">
+			<title>シート.37</title>
+			<desc>VDD_3V3_OUT</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.1417" cy="99.9626" width="72.29" height="11.3386"/>
+			<rect x="0" y="94.2933" width="72.2835" height="11.3386" class="st4"/>
+			<text x="6.25" y="102.36" class="st7" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>VDD_3V3_OUT</text>		</g>
+		<g id="shape39-46" v:mID="39" v:groupContext="shape" transform="translate(200.643,-37.2254)">
+			<title>シート.39</title>
+			<desc>1.8V</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="99.9626" width="28.35" height="11.3386"/>
+			<rect x="0" y="94.2933" width="28.3465" height="11.3386" class="st4"/>
+			<text x="5.08" y="102.36" class="st14" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>1.8V</text>		</g>
+		<g id="shape40-49" v:mID="40" v:groupContext="shape" transform="translate(200.643,-8.87894)">
+			<title>シート.40</title>
+			<desc>3.3V</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="99.9626" width="28.35" height="11.3386"/>
+			<rect x="0" y="94.2933" width="28.3465" height="11.3386" class="st4"/>
+			<text x="5.08" y="102.36" class="st14" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>3.3V</text>		</g>
+		<g id="shape59-52" v:mID="59" v:groupContext="shape" transform="translate(36.2333,-31.5561)">
+			<title>左小かっこ.59</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M5.67 105.63 A5.93398 7.0466 0 0 1 0 102.94 L0 54.47 A5.93398 7.0466 0 0 1 5.67 51.77" class="st15"/>
+		</g>
+	</g>
+</svg>

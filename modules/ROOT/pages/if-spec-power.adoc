@@ -26,16 +26,19 @@ SC-OBC Module V1 のボード間コネクタで利用可能な電源ラインは
 
 VIN_5V0 が印加されると、SC-OBC Module V1 の DC-DC コンバータにより生成される出力電源 VDD_3V3_OUT、VDD_1V8_OUT、および VDD_1V2_OUT が即座に利用可能になります。ユーザはこれらの電源レールを、キャリアボード上の回路の電源として使用できます。各出力には過電流保護が含まれており、VDD_3V3_OUT は最大 1 A、VDD_1V8_OUT および VDD_1V2_OUT は最大 300 mA の供給を想定しています。
 
+.Power Up Timing
+image::power-up-timing.svg[Power Up Timing]
 
-
-
-表 3-12 では、3 系統の IO バンク電源入力に対して 2 種類の Power Enable 信号を定義しており、任意の省電力制御を可能にしています。これらの信号はどちらも SC-OBC Module V1 から出力され、キャリアボード側へ配線されています。
+上記表では、3 系統の IO バンク電源入力に対して 2 種類の Power Enable 信号を定義しており、任意の省電力制御を可能にしています。これらの信号はどちらも SC-OBC Module V1 から出力され、キャリアボード側へ配線されています。
 _PWREN ラインがアサートされている場合、キャリアボードは対応する電源入力ピンに電源を供給するべきであり、デアサートされている場合は待機電流を抑えて全体の消費電力を削減するために電源供給を停止しても構いません。また、イネーブル信号の状態にかかわらず電源を常時供給する構成としても問題ありません。
 
 具体的には、以下のように対応します。
 
 * VCCO_302_703_PWREN は VCCO_302_IN と VCCO_703_IN の両方を制御
 * VCCO_502_PWREN は VCCO_502_IN を制御
+
+.Power Control by PWREN Signals
+image::power-control-by-pwren-signals.svg[Power Control by PWREN Signals]
 
 .Power Input/Output List
 [cols=","]
@@ -62,7 +65,23 @@ _PWREN ラインがアサートされている場合、キャリアボードは�
 
 以下に、1.8 V 電源を必要とするデバイスを LPD MIO バンク 502 に接続する場合の、キャリアボード側の構成例を示します。
 
-
+.Carrier Board Design Example with LPD MIO Bank 502
+image::carrier-board-design-example-lpdmio-bank502.svg[Carrier Board Design Example with LPD MIO Bank 502]
 
 LPD MIO バンク 502 を使用する際は、ピン VCCO_502_IN に電源を供給する必要があります。VCCO_502_IN には対応する Power Enable 信号 VCCO_502_PWREN が用意されているため、この信号を VCCO_502_IN を生成するためのイネーブル入力として利用できます。
 この例では、キャリアボード上のデバイスに 1.8 V を供給するために、VDD_1V8_OUT を電源ソースとして使用し、VCCO_502_PWREN によって制御されるパワースイッチで VCCO_502_IN への供給を制御しています。
+
+==== キャリアボード上での PMC MIO 接続回路例
+
+以下に、eMMC のように 1.8 V と 3.3 V 電源を必要とするデバイスを PMC MIO バンク 500 に接続する場合の、キャリアボード側の構成例を示します。
+
+.Carrier Board Design Example with PMC MIO Bank 500
+image::carrier-board-design-example-pmcmio-bank500.svg[Carrier Board Design Example with PMC MIO Bank 500]
+
+
+==== キャリアボード上での PL HDIO 接続回路例
+
+以下に、3.3 V 電源を必要とするデバイスを PL HDIO バンク 302 に接続する場合の、キャリアボード側の構成例を示します。
+
+.Carrier Board Design Example with PL HDIO Bank 302
+image::carrier-board-design-example-hdio-bank302.svg[Carrier Board Design Example with PL HDIO Bank 302]
