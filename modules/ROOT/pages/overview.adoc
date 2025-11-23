@@ -1,6 +1,6 @@
 == 製品概要
 
-=== Specifications
+=== 仕様
 
 .Main Processor
 [cols="1,1"]

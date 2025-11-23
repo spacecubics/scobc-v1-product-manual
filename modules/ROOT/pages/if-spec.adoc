@@ -1,6 +1,6 @@
-== Interface Specifications
+== インターフェース仕様
 
-=== CON1 (Carrier Board Interface)
+=== CON1 (キャリアボードインターフェース)
 
 SC-OBC Module V1 は、Samtec 製の 400 ピン Board-to-Boardコネクタを介してCarrier Boardと接続されます。
 デバッグ用信号を含む、SC-OBC Module V1 のすべての入出力信号は、このBoard to Boardコネクタを通してやり取りされます。

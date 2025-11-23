@@ -1,4 +1,4 @@
-== Introduction
+== はじめに
 
 SC-OBC Module V1 は、地球周回衛星、静止衛星、月探査ミッション (月軌道衛星、ランダー、月面ローバー)などの宇宙ミッション向けに設計された高性能 On Board Computerです。
 
