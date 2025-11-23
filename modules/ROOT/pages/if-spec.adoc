@@ -8,6 +8,8 @@ SC-OBC Module V1 は、Samtec 製の 400 ピン Board-to-Boardコネクタを介
 OBC モジュール側に実装されているコネクタは SEAF-40-05.0-S-10-1-A-K-TR です。
 したがって、Carrier Board側にはこれと嵌合する SEAM-40-xxxx-S-10 系コネクタを搭載する必要があります (xxxx は必要なスタック高さに応じて 02.0〜11.0 の範囲)。
 
+==== CON1 ピンレイアウト
+
 .Board to Board Connector Pin Layout (Columns A–D)
 [cols="1,3,3,3,3",options="header",]
 |===
@@ -149,9 +151,9 @@ OBC モジュール側に実装されているコネクタは SEAF-40-05.0-S-10-
 | 40     | VCCO_500_501_OUT    | VCCO_500_501_OUT
 |===
 
-=== Board-to-Board Connector Signal Details
+==== CON1 ピン詳細
 
-.Board-to-Board Connector Signal Details
+.Board-to-Board Connector Signal Details (A)
 [cols=",,,,,",options="header",]
 |===
 | Pin +
@@ -196,6 +198,13 @@ OBC モジュール側に実装されているコネクタは SEAF-40-05.0-S-10-
 | A38 | IO_L5P_N1P4_703         | Versal PL XPIO L5P_N1P4                                             | Versal 703 | VCCO_703_IN      | -
 | A39 | GND                     | GND                                                                 | -          | -                | -
 | A40 | VCCO_703_IN             | "Versal PL XPIO Bank Power Input+ (1.0 V / 1.2 V / 1.35 V / 1.5 V)" | Versal 703 | -                | 10k PD
+|===
+
+.Board-to-Board Connector Signal Details (B)
+[cols=",,,,,",options="header",]
+|===
+| Pin +
+  No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
 | B1  | GTYP_REFCLKN0_103       | Versal GTYP 0 REFCLKN0                                              | Versal 103 | - (GTYP Power)   | -
 | B2  | GND                     | GND                                                                 | -          | -                | -
 | B3  | GTYP_RXN0_103           | Versal GTYP 0 RXN0                                                  | Versal 103 | - (GTYP Power)   | -
@@ -236,6 +245,13 @@ OBC モジュール側に実装されているコネクタは SEAF-40-05.0-S-10-
 | B38 | IO_L5N_N1P5_703         | Versal PL XPIO L5N_N1P5                                             | Versal 703 | VCCO_703_IN      | -
 | B39 | IO_L24P_GC_XCC_N8P0_703 | Versal PL XPIO L24P_GC_XCC_N8P0                                     | Versal 703 | VCCO_703_IN      | -
 | B40 | VCCO_703_IN             | Versal PL XPIO Bank power Input (1.0 V / 1.2 V / 1.35 V / 1.5 V)    | Versal 703 | -                | 10k PD
+|===
+
+.Board-to-Board Connector Signal Details (C)
+[cols=",,,,,",options="header",]
+|===
+| Pin +
+  No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
 | C1  | GND                     | GND                                                                 | -          | -                | -
 | C2  | GTYP_TXP0_103           | Versal GTYP 0 TXP0                                                  | Versal 103 | - (GTYP Power)   | -
 | C3  | GND                     | GND                                                                 | -          | -                | -
@@ -276,6 +292,13 @@ OBC モジュール側に実装されているコネクタは SEAF-40-05.0-S-10-
 | C38 | GND                     | GND                                                                 | -          | -                | -
 | C39 | IO_L24N_GC_XCC_N8P1_703 | Versal PL XPIO L24N_GC_XCC_N8P1                                     | Versal 703 | VCCO_703_IN      | -
 | C40 | VCCO_302_703_PWREN      | Versal PL 302/703 Bank power enable output                          | -          | VDD_1V8_OUT      | -
+|===
+
+.Board-to-Board Connector Signal Details (D)
+[cols=",,,,,",options="header",]
+|===
+| Pin +
+  No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
 | D1  | GND                     | GND                                                                 | -          | -                | -
 | D2  | GTYP_TXN0_103           | Versal GTYP 0 TXN0                                                  | Versal 103 | - (GTYP Power)   | -
 | D3  | GND                     | GND                                                                 | -          | -                | -
@@ -316,6 +339,13 @@ OBC モジュール側に実装されているコネクタは SEAF-40-05.0-S-10-
 | D38 | IO_L17P_N5P4_703        | Versal PL XPIO L17P_N5P4                                            | Versal 703 | VCCO_703_IN      | -
 | D39 | GND                     | GND                                                                 | -          | -                | -
 | D40 | VCCO_302_703_PWREN      | Versal PL 302/703 Bank power enable output                          | -          | VDD_1V8_OUT      | -
+|===
+
+.Board-to-Board Connector Signal Details (E)
+[cols=",,,,,",options="header",]
+|===
+| Pin +
+  No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
 | E1  | VCC_BATT_IN             | Power input for the real-time clock (RTC)                           | -          | -                | -
 | E2  | GND                     | GND                                                                 | -          | -                | -
 | E3  | VCC_BATT_IN             | Power input for the real-time clock (RTC)                           | -          | -                | -
@@ -356,6 +386,13 @@ OBC モジュール側に実装されているコネクタは SEAF-40-05.0-S-10-
 | E38 | IO_L17N_N5P5_703        | Versal PL XPIO L17N_N5P5                                            | Versal 703 | VCCO_703_IN      | -
 | E39 | IO_L26P_N8P4_703        | Versal PL XPIO L26P_N8P4                                            | Versal 703 | VCCO_703_IN      | -
 | E40 | IO_L25P_N8P2_703        | Versal PL XPIO L25P_N8P2                                            | Versal 703 | VCCO_703_IN      | -
+|===
+
+.Board-to-Board Connector Signal Details (F)
+[cols=",,,,,",options="header",]
+|===
+| Pin +
+  No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
 | F1  | GND                     | GND                                                                 | -          | -                | -
 | F2  | GND                     | GND                                                                 | -          | -                | -
 | F3  | GND                     | GND                                                                 | -          | -                | -
@@ -396,6 +433,13 @@ OBC モジュール側に実装されているコネクタは SEAF-40-05.0-S-10-
 | F38 | GND                     | GND                                                                 | -          | -                | -
 | F39 | IO_L26N_N8P5_703        | Versal PL XPIO L26N_N8P5                                            | Versal 703 | VCCO_703_IN      | -
 | F40 | IO_L25N_N8P3_703        | Versal PL XPIO L25N_N8P3                                            | Versal 703 | VCCO_703_IN      | -
+|===
+
+.Board-to-Board Connector Signal Details (G)
+[cols=",,,,,",options="header",]
+|===
+| Pin +
+  No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
 | G1  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | G2  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | G3  | VIN_5V0                 | Main power input                                                    | -          | -                | -
@@ -436,6 +480,13 @@ OBC モジュール側に実装されているコネクタは SEAF-40-05.0-S-10-
 | G38 | PMC_MIO46_501           | Versal LPD MIO bit 46                                               | Versal 501 | VCCO_500_501_OUT | -
 | G39 | PMC_MIO48_501           | Versal LPD MIO bit 48                                               | Versal 501 | VCCO_500_501_OUT | -
 | G40 | GND                     | GND                                                                 | -          | -                | -
+|===
+
+.Board-to-Board Connector Signal Details (H)
+[cols=",,,,,",options="header",]
+|===
+| Pin +
+  No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
 | H1  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | H2  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | H3  | VIN_5V0                 | Main power input                                                    | -          | -                | -
@@ -476,6 +527,13 @@ OBC モジュール側に実装されているコネクタは SEAF-40-05.0-S-10-
 | H38 | PMC_MIO47_501           | Versal PMC MIO bit 47                                               | Versal 501 | VCCO_500_501_OUT | -
 | H39 | PMC_MIO49_501           | Versal PMC MIO bit 49                                               | Versal 501 | VCCO_500_501_OUT | -
 | H40 | GND                     | GND                                                                 | -          | -                | -
+|===
+
+.Board-to-Board Connector Signal Details (J)
+[cols=",,,,,",options="header",]
+|===
+| Pin +
+  No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
 | J1  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | J2  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | J3  | VIN_5V0                 | Main power input                                                    | -          | -                | -
@@ -516,6 +574,13 @@ OBC モジュール側に実装されているコネクタは SEAF-40-05.0-S-10-
 | J38 | PMC_MIO22_500           | Versal PMC MIO 0 bit 22                                             | Versal 500 | VCCO_500_501_OUT | -
 | J39 | PMC_MIO24_500           | Versal PMC MIO 0 bit 24                                             | Versal 500 | VCCO_500_501_OUT | -
 | J40 | VCCO_500_501_OUT        | Versal Bank 500/501 1.8V IO power output                            | -          | -                | -
+|===
+
+.Board-to-Board Connector Signal Details (K)
+[cols=",,,,,",options="header",]
+|===
+| Pin +
+  No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
 | K1  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | K2  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | K3  | VIN_5V0                 | Main power input                                                    | -          | -                | -
