@@ -245,7 +245,7 @@ OBC モジュール側に実装されているコネクタは SEAF-40-05.0-S-10-
 | B40 | VCCO_703_IN             | Versal PL XPIO Bank power Input (1.0 V / 1.2 V / 1.35 V / 1.5 V)    | Versal 703 | -                | 10k PD
 |===
 
-.Board-to-Board Connector Signal Details (C)
+.Board-to-Board Connector Signal Details \(C)
 [cols=",,,,,",options="header",]
 |===
 | Pin +
