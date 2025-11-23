@@ -7,3 +7,11 @@ include::if-spec-jtag.adoc[]
 include::if-spec-boot-mode.adoc[]
 
 include::if-spec-versal-mio.adoc[]
+
+include::if-spec-versal-hdio.adoc[]
+
+include::if-spec-versal-xpio.adoc[]
+
+include::if-spec-versal-gty.adoc[]
+
+include::if-spec-igloo2-msio.adoc[]
