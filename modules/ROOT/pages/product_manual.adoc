@@ -4,3 +4,7 @@
 = SC-OBC Module V1 Product Manual
 
 include::introduction.adoc[]
+
+include::product_overview.adoc[]
+
+include::interface-specifications.adoc[]

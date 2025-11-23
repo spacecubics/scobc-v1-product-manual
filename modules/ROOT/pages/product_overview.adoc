@@ -1,0 +1,81 @@
+== Product Overview
+=== Specifications
+
+[cols="1,3",options="header",]
+|===
+| Feature                  | Description
+2.+| Main Processor
+| Device                   | AMD Versal AI Edge Series VE2302
+| Application Processor    |Up to 1.30 GHz Dual core Arm Cortex-A72 +
+                             48 KB/32 KB L1 Cache w/ parity & ECC +
+                             1 MB L2 Cache w/ ECC
+| Real-time Processor      | Up to 600 MHz Dual core Arm Cortex-R5F +
+                             32 KB/32 KB L1 Cache +
+			     256 KB TCM w/ECC
+| AI Engine                | AI Engine-ML Tile: 34 +
+                             AIE/AIE-ML Data Memory [M]): 17 +
+                             AIE-ML Shared Memory [Mb]: 68
+| Programmable Logic       | System Logic: 328,720 +
+                             LUTs: 150,272 +
+                             DSP Engines: 464 +
+			     NoC Master / NoC Slave Ports: 5 +
+                             Distributed RAM: 4.6 [Mb]
+| Memory                   | Total Block RAM: 5.4 [Mb]
+                             UltraRAM: 43,6 [Mb]+
+			     Accelerator RAM: 32 [Mb]
+2.+| Safety Processor
+| Device                   | Microchip IGLOO2 (M2GL090)
+2.+On Board Memory
+| DDR4                     | DDR4 memory w/ ECC 4 [GB]
+| Boot Memory              | NOR Flash memory 64 MByte x 2
+| Main Storage (for Linux) | 64GByte
+| High Reliability Memory  | FRAM 1 MByte x 2
+2.+| Pre-Install Operating System
+| Main Processor APU       | Linux
+| Main Processor RPU       | Zephyr RTOS
+2.+| Board to Board Interface (User IO)
+| Versal PMC MIO 0         | 14 signals +
+                             Platform Management MIO[25:12] +
+                             VDDIO: 1.8 [V]
+| Versal PMC MIO 1         | 13 signals +
+                             Platform Management MIO[49:37] +
+                             VDDIO: 1.8 [V]
+| Versal LPD MIO           | 26 signals +
+                             Low Power Domain MIO[25:0] +
+                             VDDIO: 1.8/2.5/3.3 [V]
+| Versal PL XPIO           | 54 signals (Versal Bank 703) +
+                             VDDIO: 1.0/1.2/1.35/1.5 [V]
+| Versal PL HDIO           | 22 signals +
+                             VDDIO: 1.8/2.5/3.3 [V]
+| Versal GTYP0             | 20 signals +
+                             Clock: 2 pair,  TX: 4 pair, RX: 4 pair
+| Versal GTYP1             | 20 signals +
+                             Clock: 2 pair,  TX: 4 pair, RX: 4 pair
+| IGLOO2 MSIO 0            | 32 signals (IGLOO2 Bank 5) +
+                             VDDIO: 1.2/1.5/1.8/2.5/3.3 [V]
+| IGLOO2 MSIO 1            | 16 signals (IGLOO2 Bank 8) +
+                             VDDIO: 1.2/1.5/1.8/2.5/3.3 [V]
+2.+| Board Health Function
+| On-Board Sensor          | Temperature Sensor +
+                             Current/Voltage Monitor
+| Power Management         | Over-current detection +
+                             Brownout protection
+2.+| Environmental Characteristics
+| Power Supply             | DC 5.0 [V]
+| Operating Temperature    | -40 〜 80 
+| Size                     | 100 mm × 150 mm
+|===
+
+=== Block Diagram
+
+SC-OBC Module V1は、FPGAを採用することによる高い柔軟性を維持するために、OBC ModuleとCarrier Boardの2枚の基板でOBCを構成します。
+
+OBC Moduleには、DDR4メモリ、Boot Storage、Main Storage、SC-OBC Module V1を採用するシステムのインターフェース構成が変わっても影響しない再利用性の高い機能が実装されています。
+一方、Carrier Boardにはインターフェースの電気的特性を満たすために必要な Transceiver ICや プロトコルコンバータ ICなど、システム構成に影響を受ける機能を実装します。
+
+SC-OBC Module V1を使うユーザーは、衛星のシステムが変更になっても Carrier Boardを再設計する事で、簡単に新しい衛星に適合したシステムを構築する事ができます。
+これにより、衛星のシステムが変わったとしても同じ OBC Moduleを採用するシステムには、多くのソフトウェア資産を流用する事ができます。
+
+OBC Moduleと Carrier Boardは 400ピンの Board to Boardコネクタで接続します。
+
+image::block_diagram.svg[Block Diagram]
