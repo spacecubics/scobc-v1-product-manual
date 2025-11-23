@@ -3,6 +3,10 @@
 SC-OBC Module V1 は、Samtec 製の 400 ピン Board-to-Boardコネクタを介してCarrier Boardと接続されます。
 デバッグ用信号を含む、SC-OBC Module V1 のすべての入出力信号は、このBoard to Boardコネクタを通してやり取りされます。
 
+.Interface Signals
+image::interface-signal-structure.svg[Interface Signals]
+
+
 OBC モジュール側に実装されているコネクタは SEAF-40-05.0-S-10-1-A-K-TR です。
 したがって、Carrier Board側にはこれと嵌合する SEAM-40-xxxx-S-10 系コネクタを搭載する必要があります (xxxx は必要なスタック高さに応じて 02.0〜11.0 の範囲)。
 
