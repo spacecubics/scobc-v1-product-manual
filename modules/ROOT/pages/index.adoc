@@ -3,4 +3,8 @@
 
 = SC-OBC Module V1 Product Manual
 
-* xref:product_manual.adoc[日本語版]
+include::introduction.adoc[]
+
+include::product_overview.adoc[]
+
+include::interface-specifications.adoc[]
