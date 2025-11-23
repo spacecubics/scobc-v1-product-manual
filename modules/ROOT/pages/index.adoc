@@ -7,4 +7,4 @@ include::introduction.adoc[]
 
 include::overview.adoc[]
 
-include::interface-specifications.adoc[]
+include::if-spec.adoc[]
