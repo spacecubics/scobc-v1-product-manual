@@ -1,0 +1,48 @@
+=== 電源入出力
+
+SC-OBC Module V1 は、基本的にキャリアボードから供給される単一の 5 V 電源で動作します。ただし、キャリアボード側から IO バンクに電源を供給することで、任意の電圧レベルの信号を IO バンク信号に接続することができます。そのために、SC-OBC Module V1 には IO バンク用電源入力専用の経路が用意されています。
+
+SC-OBC Module V1 からの電源出力は、入力された 5 V を元にモジュール内部で生成されており、キャリアボード上の回路の電源として、あるいは SC-OBC Module V1 自身の IO バンク用電源入力として利用することを想定しています。
+
+SC-OBC Module V1 のボード間コネクタで利用可能な電源ラインは、以下のとおりです。
+
+.Power Input/Output List
+[cols=",,,",options="header"]
+|===
+|VIN_5V0             |Power  Input          |5                     |Main power input from the carrier board
+|VCC_BATT_IN         |Power  Input          |1.2 - 1.5             |Power input for the real-time clock (RTC)
+|VDD_3V3_OUT         |Power  Output         |3.3                   |3.3V power output for user circuit
+|VDD_1V8_OUT         |Power  Output         |1.8                   |1.8V power output for user circuit
+|VDD_1V2_OUT         |Power  Output         |1.2                   |1.2V power output for user circuit
+|VCCO_500_501_OUT    |Power  Output         |1.8                   |Versal Bank 500 /501 1.8V power output
+|VCCO_503_OUT        |Power  Output         |1.8                   |Versal Bank 503 (JTAG) 1.8V power output
+|M2GL_VDDI4_OUT      |Power  Output         |1.8                   |IGLOO2 Bank 4 (JTAG) 1.8V power output
+|VCCO_502_IN         |IO Bank Power Input   |1.8/2.5/3.3           |Power input for Versal LPD MIO Bank 502
+|VCCO_703_IN         |IO Bank Power Input   |1.0/1.2/1.35/1.5      |Power input for Versal PL XPIO Bank 703
+|VCCO_302_IN         |IO Bank Power Input   |1.8/2.5/3.3           |Power input for Versal PL HDIO Bank 302
+|M2GL_VDDI5_IN       |IO Bank Power Input   |1.2/1.5/1.8/2.5/3.3   |Power input for IGLOO2 Bank 5
+|M2GL_VDDI8_IN       |IO Bank Power Input   |1.2/1.5/1.8/2.5/3.3   |Power input for IGLOO2 Bank 8
+|===
+
+VIN_5V0 が印加されると、SC-OBC Module V1 の DC-DC コンバータにより生成される出力電源 VDD_3V3_OUT、VDD_1V8_OUT、および VDD_1V2_OUT が即座に利用可能になります。ユーザはこれらの電源レールを、キャリアボード上の回路の電源として使用できます。各出力には過電流保護が含まれており、VDD_3V3_OUT は最大 1 A、VDD_1V8_OUT および VDD_1V2_OUT は最大 300 mA の供給を想定しています。
+
+
+
+
+表 3-12 では、3 系統の IO バンク電源入力に対して 2 種類の Power Enable 信号を定義しており、任意の省電力制御を可能にしています。これらの信号はどちらも SC-OBC Module V1 から出力され、キャリアボード側へ配線されています。
+_PWREN ラインがアサートされている場合、キャリアボードは対応する電源入力ピンに電源を供給するべきであり、デアサートされている場合は待機電流を抑えて全体の消費電力を削減するために電源供給を停止しても構いません。また、イネーブル信号の状態にかかわらず電源を常時供給する構成としても問題ありません。
+
+具体的には、以下のように対応します。
+
+* VCCO_302_703_PWREN は VCCO_302_IN と VCCO_703_IN の両方を制御
+* VCCO_502_PWREN は VCCO_502_IN を制御
+
+
+==== キャリアボード上での LPD MIO 接続回路例
+
+以下に、1.8 V 電源を必要とするデバイスを LPD MIO バンク 502 に接続する場合の、キャリアボード側の構成例を示します。
+
+
+
+LPD MIO バンク 502 を使用する際は、ピン VCCO_502_IN に電源を供給する必要があります。VCCO_502_IN には対応する Power Enable 信号 VCCO_502_PWREN が用意されているため、この信号を VCCO_502_IN を生成するためのイネーブル入力として利用できます。
+この例では、キャリアボード上のデバイスに 1.8 V を供給するために、VDD_1V8_OUT を電源ソースとして使用し、VCCO_502_PWREN によって制御されるパワースイッチで VCCO_502_IN への供給を制御しています。

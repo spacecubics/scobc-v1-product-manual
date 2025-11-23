@@ -15,3 +15,5 @@ include::if-spec-versal-xpio.adoc[]
 include::if-spec-versal-gty.adoc[]
 
 include::if-spec-igloo2-msio.adoc[]
+
+include::if-spec-power.adoc[]
