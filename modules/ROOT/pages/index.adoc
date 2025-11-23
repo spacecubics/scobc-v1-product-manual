@@ -7,4 +7,6 @@ include::introduction.adoc[]
 
 include::overview.adoc[]
 
+include::elec-spec.adoc[]
+
 include::if-spec.adoc[]
