@@ -1,7 +1,10 @@
-name: scobc-v1-product-manual
-title: SC-OBC Module V1 Product Manual
+name: scobc-v1
+title: SC-OBC Module V1 Manual
 version: "latest"
 start_page: index.adoc
 nav:
   - modules/ROOT/nav.adoc
+  - modules/dev-board/nav.adoc
   - modules/hardware/nav.adoc
+  - modules/software/nav.adoc
+  - modules/fpga/nav.adoc
