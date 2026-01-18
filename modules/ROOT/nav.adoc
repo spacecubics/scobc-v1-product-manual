@@ -1,3 +1,4 @@
 .Product Overview
 * xref:introduction.adoc[]
-* xref:overview.adoc[]
+* xref:block-diagram.adoc[]
+* xref:key-specs.adoc[]
