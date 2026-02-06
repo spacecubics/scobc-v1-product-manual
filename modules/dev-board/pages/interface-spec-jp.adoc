@@ -1,6 +1,6 @@
-= インタフェースレイアウト (JP)
+= インタフェース仕様: JP
 
-image::Interface_Layout2.svg[Interface_Layout2.svg]
+image::interface-layout-jp.webp[Interface_Layout2.svg]
 
 [width="100%",cols="1,3,3",options="header",]
 |===
