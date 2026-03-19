@@ -40,8 +40,8 @@ RTC と BBRAM は、通常は OBC 内で生成される電圧 (VCCAUX_PMC_SMON) 
 [width="100%",cols="1,1,1,1,2",options="header",]
 |===
 |Pin Number |Pin Name |I/O |Power Domain |Description
-|1 |VCC_BATT_IN |Power |VCC_BATT_IN |電源 (VCC_BATT_IN)
-|2 |GND |Power |VCC_BATT_IN |電源 (GND)
+|1 |VCC_BATT_IN |Power |VCC_BATT_IN |Power supply (VCC_BATT_IN)
+|2 |GND |Power |VCC_BATT_IN |Ground
 |===
 
 == CON18 信号線観測用インタフェース (CON3)
@@ -82,11 +82,11 @@ CON4 は IGLOO2 の FPGA JTAG インタフェースです。 +
 [width="100%",cols="1,1,1,1,2",options="header",]
 |===
 |Pin Number |Pin Name |I/O |Power Domain |Description
-|2 |GND |Power |VDD_1V8_M2GL_B4 |電源 (GND)
+|2 |GND |Power |VDD_1V8_M2GL_B4 |Ground
 |4 |NC |- |VDD_1V8_M2GL_B4 |TP21に接続
-|6 |VDD_1V8_M2GL_B4 |Power |VDD_1V8_M2GL_B4 |電源 (VDD_1V8_M2GL_B4)
+|6 |VDD_1V8_M2GL_B4 |Power |VDD_1V8_M2GL_B4 |Power supply (VDD_1V8_M2GL_B4)
 |8 |M2GL_JTAG_TRSTB |Input |VDD_1V8_M2GL_B4 |IGLOO2 JTAG リセット
-|10 |GND |Power |VDD_1V8_M2GL_B4 |電源 (GND)
+|10 |GND |Power |VDD_1V8_M2GL_B4 |Ground
 |===
 
 == IGLOO2 デバックインタフェース (CON5)
@@ -203,12 +203,12 @@ CON12 の Pin 13~14 に接続されている Versal PMC MIO 0 と Versal PMC MIO
 |12 |LPD_MIO11 |In/Out |VDD_B502 |CON1(K30) へ接続
 |13 |PMC_MIO12_3V3 |In/Out |VDD_B502 |IC27 を経由して CON1(J33) へ接続
 |14 |PMC_MIO37_3V3 |In/Out |VDD_B502 |IC27 を経由して CON1(H33) へ接続
-|15 |GND |Power |VDD_B502 |電源 (GND)
-|16 |GND |Power |VDD_B502 |電源 (GND)
-|17 |VDD_B502 |Power |VDD_B502 |電源 (VDD_B502)
-|18 |VDD_B502 |Power |VDD_B502 |電源 (VDD_B502)
-|19 |VDD_B502 |Power |VDD_B502 |電源 (VDD_B502)
-|20 |VDD_B502 |Power |VDD_B502 |電源 (VDD_B502)
+|15 |GND |Power |VDD_B502 |Ground
+|16 |GND |Power |VDD_B502 |Ground
+|17 |VDD_B502 |Power |VDD_B502 |Power supply (VDD_B502)
+|18 |VDD_B502 |Power |VDD_B502 |Power supply (VDD_B502)
+|19 |VDD_B502 |Power |VDD_B502 |Power supply (VDD_B502)
+|20 |VDD_B502 |Power |VDD_B502 |Power supply (VDD_B502)
 |===
 
 == CON19 信号線観測用インタフェース (CON13)
@@ -242,8 +242,8 @@ VDD_B302 には Load Switch が設けられており、Versal の主電源が切
 |3 |HDIO_302_L0N |In/Out |VDD_B302 |CON1(B22) へ接続
 |5 |HDIO_302_L2P |In/Out |VDD_B302 |CON1(A26) へ接続
 |7 |HDIO_302_L2N |In/Out |VDD_B302 |CON1(B26) へ接続
-|9 |GND |Power |VDD_B302 |電源 (GND)
-|11 |VDD_B302 |Power |VDD_B302 |電源 (VDD_B302)
+|9 |GND |Power |VDD_B302 |Ground
+|11 |VDD_B302 |Power |VDD_B302 |Power supply (VDD_B302)
 |===
 
 [width="100%",cols="1,2,1,1,2",options="header",]
@@ -253,8 +253,8 @@ VDD_B302 には Load Switch が設けられており、Versal の主電源が切
 |4 |HDIO_302_L1N |In/Out |VDD_B302 |CON1(B24) へ接続
 |6 |HDIO_302_L3P |In/Out |VDD_B302 |CON1(B23) へ接続
 |8 |HDIO_302_L3N |In/Out |VDD_B302 |CON1(C23) へ接続
-|10 |GND |Power |VDD_B302 |電源 (GND)
-|12 |VDD_B302 |Power |VDD_B302 |電源 (VDD_B302)
+|10 |GND |Power |VDD_B302 |Ground
+|12 |VDD_B302 |Power |VDD_B302 |Power supply (VDD_B302)
 |===
 
 - Block 2
@@ -266,8 +266,8 @@ VDD_B302 には Load Switch が設けられており、Versal の主電源が切
 |21 |HDIO_302_L4N |In/Out |VDD_B302 |CON1(C25) へ接続
 |23 |HDIO_302_L6P_HDGC |In/Out |VDD_B302 |CON1(D24) へ接続
 |25 |HDIO_302_L6N_HDGC |In/Out |VDD_B302 |CON1(E24) へ接続
-|27 |GND |Power |VDD_B302 |電源 (GND)
-|29 |VDD_B302 |Power |VDD_B302 |電源 (VDD_B302)
+|27 |GND |Power |VDD_B302 |Ground
+|29 |VDD_B302 |Power |VDD_B302 |Power supply (VDD_B302)
 |===
 
 [width="100%",cols="1,2,1,1,2",options="header",]
@@ -277,8 +277,8 @@ VDD_B302 には Load Switch が設けられており、Versal の主電源が切
 |22 |HDIO_302_L5N_HDGC |In/Out |VDD_B302 |CON1(E22) へ接続
 |24 |HDIO_302_L7P |In/Out |VDD_B302 |CON1(D26) へ接続
 |26 |HDIO_302_L7N |In/Out |VDD_B302 |CON1(E26) へ接続
-|28 |GND |Power |VDD_B302 |電源 (GND)
-|30 |VDD_B302 |Power |VDD_B302 |電源 (VDD_B302)
+|28 |GND |Power |VDD_B302 |Ground
+|30 |VDD_B302 |Power |VDD_B302 |Power supply (VDD_B302)
 |===
 
 - Block 3
@@ -290,8 +290,8 @@ VDD_B302 には Load Switch が設けられており、Versal の主電源が切
 |39 |HDIO_302_L8N_UART0_TXD |Output |VDD_B302 |CON1(F21) へ接続
 |41 |HDIO_302_L10P_UART1_RXD |Input |VDD_B302 |CON1(E25) へ接続
 |43 |HDIO_302_L10N_UART1_TXD |Output |VDD_B302 |CON1(F25) へ接続
-|45 |GND |Power |VDD_B302 |電源 (GND)
-|47 |VDD_B302 |Power |VDD_B302 |電源 (VDD_B302)
+|45 |GND |Power |VDD_B302 |Ground
+|47 |VDD_B302 |Power |VDD_B302 |Power supply (VDD_B302)
 |===
 
 [width="100%",cols="1,2,1,1,2",options="header",]
@@ -301,8 +301,8 @@ VDD_B302 には Load Switch が設けられており、Versal の主電源が切
 |40 |HDIO_302_L9N |In/Out |VDD_B302 |CON1(F23) へ接続
 |42 |NC |- |- |-
 |44 |NC |- |- |-
-|46 |GND |Power |VDD_B302 |電源 (GND)
-|48 |VDD_B302 |Power |VDD_B302 |電源 (VDD_B302)
+|46 |GND |Power |VDD_B302 |Ground
+|48 |VDD_B302 |Power |VDD_B302 |Power supply (VDD_B302)
 |===
 NOTE: 表に含まれていないピンは全て NC
 
@@ -322,8 +322,8 @@ CON15 に接続されている電源 (VDD_M2GL_B5) は IGLOO2 MSIO (Bank 5) の�
 |3 |M2GL_MSIO196NB5 |In/Out |VDD_M2GL_B5 |CON1(K5) へ接続
 |5 |M2GL_MSIO198PB5 |In/Out |VDD_M2GL_B5 |CON1(J7) へ接続
 |7 |M2GL_MSIO198NB5 |In/Out |VDD_M2GL_B5 |CON1(K7) へ接続
-|9 |GND |Power |VDD_M2GL_B5 |電源 (GND)
-|11 |VDD_M2GL_B5 |Power |VDD_M2GL_B5 |電源 (VDD_M2GL_B5)
+|9 |GND |Power |VDD_M2GL_B5 |Ground
+|11 |VDD_M2GL_B5 |Power |VDD_M2GL_B5 |Power supply (VDD_M2GL_B5)
 |===
 
 [width="100%",cols="1,2,1,1,2",options="header",]
@@ -333,8 +333,8 @@ CON15 に接続されている電源 (VDD_M2GL_B5) は IGLOO2 MSIO (Bank 5) の�
 |4 |M2GL_MSIO197NB5 |In/Out |VDD_M2GL_B5 |CON1(K6) へ接続
 |6 |M2GL_MSIO201PB5 |In/Out |VDD_M2GL_B5 |CON1(J8) へ接続
 |8 |M2GL_MSIO201NB5 |In/Out |VDD_M2GL_B5 |CON1(K8) へ接続
-|10 |GND |Power |VDD_M2GL_B5 |電源 (GND)
-|12 |VDD_M2GL_B5 |Power |VDD_M2GL_B5 |電源 (VDD_M2GL_B5)
+|10 |GND |Power |VDD_M2GL_B5 |Ground
+|12 |VDD_M2GL_B5 |Power |VDD_M2GL_B5 |Power supply (VDD_M2GL_B5)
 |===
 
 - Block 1~2
@@ -344,7 +344,7 @@ CON15 に接続されている電源 (VDD_M2GL_B5) は IGLOO2 MSIO (Bank 5) の�
 |Pin Number |Pin Name |I/O |Power Domain |Description
 |13 |M2GL_MSIO203PB5 |In/Out |VDD_M2GL_B5 |CON1(J9) へ接続
 |15 |M2GL_MSIO203NB5 |In/Out |VDD_M2GL_B5 |CON1(K9) へ接続
-|17 |GND |Power |VDD_M2GL_B5 |電源 (GND)
+|17 |GND |Power |VDD_M2GL_B5 |Ground
 |===
 
 [width="100%",cols="1,2,1,1,2",options="header",]
@@ -352,7 +352,7 @@ CON15 に接続されている電源 (VDD_M2GL_B5) は IGLOO2 MSIO (Bank 5) の�
 |Pin Number |Pin Name |I/O |Power Domain |Description
 |14 |M2GL_MSIO204PB5 |In/Out |VDD_M2GL_B5 |CON1(J10) へ接続
 |16 |M2GL_MSIO204NB5 |In/Out |VDD_M2GL_B5 |CON1(K10) へ接続
-|18 |GND |Power |VDD_M2GL_B5 |電源 (GND)
+|18 |GND |Power |VDD_M2GL_B5 |Ground
 |===
 
 - Block 2
@@ -364,8 +364,8 @@ CON15 に接続されている電源 (VDD_M2GL_B5) は IGLOO2 MSIO (Bank 5) の�
 |21 |M2GL_MSIO208NB5 |In/Out |VDD_M2GL_B5 |CON1(H5) へ接続
 |23 |M2GL_MSIO212PB5 |In/Out |VDD_M2GL_B5 |CON1(G7) へ接続
 |25 |M2GL_MSIO212NB5 |In/Out |VDD_M2GL_B5 |CON1(H7) へ接続
-|27 |GND |Power |VDD_M2GL_B5 |電源 (GND)
-|29 |VDD_M2GL_B5 |Power |VDD_M2GL_B5 |電源 (VDD_M2GL_B5)
+|27 |GND |Power |VDD_M2GL_B5 |Ground
+|29 |VDD_M2GL_B5 |Power |VDD_M2GL_B5 |Power supply (VDD_M2GL_B5)
 |===
 
 [width="100%",cols="1,2,1,1,2",options="header",]
@@ -375,8 +375,8 @@ CON15 に接続されている電源 (VDD_M2GL_B5) は IGLOO2 MSIO (Bank 5) の�
 |22 |M2GL_MSIO209NB5 |In/Out |VDD_M2GL_B5 |CON1(H6) へ接続
 |24 |M2GL_MSIO213PB5 |In/Out |VDD_M2GL_B5 |CON1(G8) へ接続
 |26 |M2GL_MSIO213NB5 |In/Out |VDD_M2GL_B5 |CON1(H8) へ接続
-|28 |GND |Power |VDD_M2GL_B5 |電源 (GND)
-|30 |VDD_M2GL_B5 |Power |VDD_M2GL_B5 |電源 (VDD_M2GL_B5)
+|28 |GND |Power |VDD_M2GL_B5 |Ground
+|30 |VDD_M2GL_B5 |Power |VDD_M2GL_B5 |Power supply (VDD_M2GL_B5)
 |===
 
 - Block 2~3
@@ -386,7 +386,7 @@ CON15 に接続されている電源 (VDD_M2GL_B5) は IGLOO2 MSIO (Bank 5) の�
 |Pin Number |Pin Name |I/O |Power Domain |Description
 |31 |M2GL_MSIO216PB5 |In/Out |VDD_M2GL_B5 |CON1(G9) へ接続
 |33 |M2GL_MSIO216NB5 |In/Out |VDD_M2GL_B5 |CON1(H9) へ接続
-|35 |GND |Power |VDD_M2GL_B5 |電源 (GND)
+|35 |GND |Power |VDD_M2GL_B5 |Ground
 |===
 
 [width="100%",cols="1,2,1,1,2",options="header",]
@@ -394,7 +394,7 @@ CON15 に接続されている電源 (VDD_M2GL_B5) は IGLOO2 MSIO (Bank 5) の�
 |Pin Number |Pin Name |I/O |Power Domain |Description
 |32 |M2GL_MSIO221PB5 |In/Out |VDD_M2GL_B5 |CON1(G10) へ接続
 |34 |M2GL_MSIO221NB5 |In/Out |VDD_M2GL_B5 |CON1(H10) へ接続
-|36 |GND |Power |VDD_M2GL_B5 |電源 (GND)
+|36 |GND |Power |VDD_M2GL_B5 |Ground
 |===
 
 - Block 3
@@ -406,8 +406,8 @@ CON15 に接続されている電源 (VDD_M2GL_B5) は IGLOO2 MSIO (Bank 5) の�
 |39 |M2GL_MSIO222NB5 |In/Out |VDD_M2GL_B5 |CON1(F5) へ接続
 |41 |M2GL_MSIO228PB5 |In/Out |VDD_M2GL_B5 |CON1(E7) へ接続
 |43 |M2GL_MSIO228NB5 |In/Out |VDD_M2GL_B5 |CON1(F8) へ接続
-|45 |GND |Power |VDD_M2GL_B5 |電源 (GND)
-|47 |VDD_M2GL_B5 |Power |VDD_M2GL_B5 |電源 (VDD_M2GL_B5)
+|45 |GND |Power |VDD_M2GL_B5 |Ground
+|47 |VDD_M2GL_B5 |Power |VDD_M2GL_B5 |Power supply (VDD_M2GL_B5)
 |===
 
 [width="100%",cols="1,2,1,1,2",options="header",]
@@ -417,8 +417,8 @@ CON15 に接続されている電源 (VDD_M2GL_B5) は IGLOO2 MSIO (Bank 5) の�
 |40 |M2GL_MSIO226NB5 |In/Out |VDD_M2GL_B5 |CON1(F7) へ接続
 |42 |M2GL_MSIO230PB5 |In/Out |VDD_M2GL_B5 |CON1(E9) へ接続
 |44 |M2GL_MSIO230NB5 |In/Out |VDD_M2GL_B5 |CON1(F9) へ接続
-|46 |GND |Power |VDD_M2GL_B5 |電源 (GND)
-|48 |VDD_M2GL_B5 |Power |VDD_M2GL_B5 |電源 (VDD_M2GL_B5)
+|46 |GND |Power |VDD_M2GL_B5 |Ground
+|48 |VDD_M2GL_B5 |Power |VDD_M2GL_B5 |Power supply (VDD_M2GL_B5)
 |===
 
 == Dev Board 主電源供給インタフェース (CON16)
@@ -456,7 +456,7 @@ JP30~JP33 により、半二重または全二重の通信方式への切り替�
 |2 |RS422_TXM |Output |VDD_3V3_C |IGLOO2 の UART_TX が差動変換されたマイナス側の信号
 |3 |RS422_RXP |Input |VDD_3V3_C |IGLOO2 の UART_RX が差動変換されたプラス側の信号
 |4 |RS422_RXM |Input |VDD_3V3_C |IGLOO2 の UART_RX が差動変換されたマイナス側の信号
-|5 |GND |Power |VDD_3V3_C |電源 (GND)
+|5 |GND |Power |VDD_3V3_C |Ground
 |===
 
 == CAN インタフェース (CON19)
@@ -471,7 +471,7 @@ CON19 を使用する場合、Versal LPD MIO の電源ドメインが 1.8V 以�
 |Pin Number |Pin Name |I/O |Power Domain |Description
 |1 |CAN_CANL |In/Out |- |CAN L 信号
 |2 |CAN_CANH |In/Out |- |CAN H 信号
-|3 |GND |Power |- |電源 (GND)
+|3 |GND |Power |- |Ground
 |===
 
 == Dev Board 主電源供給インタフェース (CON20)
@@ -482,6 +482,6 @@ CON20 を使用する場合、CON16 へ電圧を印加しないでください�
 [width="100%",cols="1,1,1,1,1",options="header",]
 |===
 |Pin Number |Pin Name |I/O |Power Domain |Description
-|1 |VIN |Power |VIN |電源 (+12V)
-|2 |GND |Power |VIN |電源 (GND)
+|1 |VIN |Power |VIN |Power supply (+12V)
+|2 |GND |Power |VIN |Ground
 |===

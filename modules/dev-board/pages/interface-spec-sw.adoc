@@ -17,10 +17,10 @@ SW1 は Versal の起動モードを制御するための DIP スイッチです
 [width="100%",cols="1,1,1,1,1",options="header",]
 |===
 |Mode |Pin Number |Pin Name |I/O |Power Domain
-|MODE 0 |1, 8 |XCVE_MODE0 |Input |電源 (VDD_5V0_CM)
-|MODE 1 |2, 7 |XCVE_MODE1 |Input |電源 (VDD_5V0_CM)
-|MODE 2 |3, 6 |XCVE_MODE2 |Input |電源 (VDD_5V0_CM)
-|MODE 3 |4, 5 |XCVE_MODE3 |Input |電源 (VDD_5V0_CM)
+|MODE 0 |1, 8 |XCVE_MODE0 |Input |Power supply (VDD_5V0_CM)
+|MODE 1 |2, 7 |XCVE_MODE1 |Input |Power supply (VDD_5V0_CM)
+|MODE 2 |3, 6 |XCVE_MODE2 |Input |Power supply (VDD_5V0_CM)
+|MODE 3 |4, 5 |XCVE_MODE3 |Input |Power supply (VDD_5V0_CM)
 |===
 
 スイッチの設定により、以下のように起動モードを設定することが可能です。
