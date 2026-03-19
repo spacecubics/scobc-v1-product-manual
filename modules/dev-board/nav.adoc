@@ -1,5 +1,5 @@
 .Development Board
-* xref:intro.adoc[]
+* xref:overview.adoc[]
 * xref:terms.adoc[]
 * xref:interface-spec-con.adoc[]
 * xref:interface-spec-sw.adoc[]
