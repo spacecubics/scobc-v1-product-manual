@@ -1,4 +1,4 @@
-= インタフェース仕様: JP
+= Interface Spec: JP
 
 image::interface-layout-jp.webp[Interface_Layout2.svg]
 

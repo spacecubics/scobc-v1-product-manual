@@ -1,4 +1,4 @@
-= 用語の定義
+= Definition of Terms
 
 [width="100%",cols="1,3",options="header",]
 |===

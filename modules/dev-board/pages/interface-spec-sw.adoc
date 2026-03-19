@@ -1,4 +1,4 @@
-= インタフェース仕様: SW
+= Interface Spec: SW
 
 image::interface-layout-sw.webp[Interface_Layout1.svg]
 

@@ -1,4 +1,4 @@
-= インタフェース仕様: CON
+= Interface Spec: CON
 
 image::interface-layout-con.webp[Interface_Layout1.svg]
 
