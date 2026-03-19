@@ -165,44 +165,44 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | Pin +
   No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
 | A1  | GTYP_REFCLKP0_103       | Versal GTYP 0 REFCLKP0                                              | Versal 103 | - (GTYP Power)   | -
-| A2  | GND                     | GND                                                                 | -          | -                | -
+| A2  | GND                     | Ground                                                              | -          | -                | -
 | A3  | GTYP_RXP0_103           | Versal GTYP 0 RXP0                                                  | Versal 103 | - (GTYP Power)   | -
-| A4  | GND                     | GND                                                                 | -           | -               | -
+| A4  | GND                     | Ground                                                              | -           | -               | -
 | A5  | GTYP_RXP1_103           | Versal GTYP 0 RXP1                                                  | Versal 103 | - (GTYP Power)   | -
-| A6  | GND                     | GND                                                                 | -          | -                | -
+| A6  | GND                     | Ground                                                              | -          | -                | -
 | A7  | GTYP_RXP2_103           | Versal GTYP 0 RXP2                                                  | Versal 103 | - (GTYP Power)   | -
-| A8  | GND                     | GND                                                                 | -          | -                | -
+| A8  | GND                     | Ground                                                              | -          | -                | -
 | A9  | GTYP_RXP3_103           | Versal GTYP 0 RXP3                                                  | Versal 103 | - (GTYP Power)   | -
-| A10 | GND                     | GND                                                                 | -          | -                | -
+| A10 | GND                     | Ground                                                              | -          | -                | -
 | A11 | GTYP_REFCLKP0_104       | Versal GTYP 1 REFCLKP0                                              | Versal 104 | - (GTYP Power)   | -
-| A12 | GND                     | GND                                                                 | -          | -                | -
+| A12 | GND                     | Ground                                                              | -          | -                | -
 | A13 | GTYP_RXP0_104           | Versal GTYP 1 RXP0                                                  | Versal 104 | - (GTYP Power)   | -
-| A14 | GND                     | GND                                                                 | -          | -                | -
+| A14 | GND                     | Ground                                                              | -          | -                | -
 | A15 | GTYP_RXP1_104           | Versal GTYP 1 RXP1                                                  | Versal 104 | - (GTYP Power)   | -
-| A16 | GND                     | GND                                                                 | -          | -                | -
+| A16 | GND                     | Ground                                                              | -          | -                | -
 | A17 | GTYP_RXP2_104           | Versal GTYP 1 RXP2                                                  | Versal 104 | - (GTYP Power)   | -
-| A18 | GND                     | GND                                                                 | -          | -                | -
+| A18 | GND                     | Ground                                                              | -          | -                | -
 | A19 | GTYP_RXP3_104           | Versal GTYP 1 RXP3                                                  | Versal 104 | - (GTYP Power)   | -
-| A20 | GND                     | GND                                                                 | -          | -                | -
+| A20 | GND                     | Ground                                                              | -          | -                | -
 | A21 | VCCO_302_IN             | "Versal PL HDIO Bank Power Input + (1.8 V / 2.5V / 3.3V)"           | Versal 302 | -                | 10k PD
 | A22 | IO_L0P_302              | Versal PL HDIO L0P                                                  | Versal 302 | VCCO_302_IN      | -
-| A23 | GND                     | GND                                                                 | -          | -                | -
+| A23 | GND                     | Ground                                                              | -          | -                | -
 | A24 | IO_L1P_302              | Versal PL HDIO L1P                                                  | Versal 302 | VCCO_302_IN      | -
-| A25 | GND                     | GND                                                                 | -          | -                | -
+| A25 | GND                     | Ground                                                              | -          | -                | -
 | A26 | IO_L2P_302              | Versal PL HDIO L2P                                                  | Versal 302 | VCCO_302_IN      | -
-| A27 | GND                     | GND                                                                 | -          | -                | -
+| A27 | GND                     | Ground                                                              | -          | -                | -
 | A28 | IO_L0P_XCC_N0P0_703     | Versal PL XPIO L0P_N0P0                                             | Versal 703 | VCCO_703_IN      | -
-| A29 | GND                     | GND                                                                 | -          | -                | -
+| A29 | GND                     | Ground                                                              | -          | -                | -
 | A30 | IO_L1P_N0P2_703         | Versal PL XPIO L1P_N0P2                                             | Versal 703 | VCCO_703_IN      | -
-| A31 | GND                     | GND                                                                 | -          | -                | -
+| A31 | GND                     | Ground                                                              | -          | -                | -
 | A32 | IO_L2P_N0P4_703         | Versal PL XPIO L2P_N0P4                                             | Versal 703 | VCCO_703_IN      | -
-| A33 | GND                     | GND                                                                 | -          | -                | -
+| A33 | GND                     | Ground                                                              | -          | -                | -
 | A34 | IO_L3P_XCC_N1P0_703     | Versal PL XPIO L3P_N1P0                                             | Versal 703 | VCCO_703_IN      | -
-| A35 | GND                     | GND                                                                 | -          | -                | -
+| A35 | GND                     | Ground                                                              | -          | -                | -
 | A36 | IO_L4P_N1P2_703         | Versal PL XPIO L4P_N1P2                                             | Versal 703 | VCCO_703_IN      | -
-| A37 | GND                     | GND                                                                 | -          | -                | -
+| A37 | GND                     | Ground                                                              | -          | -                | -
 | A38 | IO_L5P_N1P4_703         | Versal PL XPIO L5P_N1P4                                             | Versal 703 | VCCO_703_IN      | -
-| A39 | GND                     | GND                                                                 | -          | -                | -
+| A39 | GND                     | Ground                                                              | -          | -                | -
 | A40 | VCCO_703_IN             | "Versal PL XPIO Bank Power Input+ (1.0 V / 1.2 V / 1.35 V / 1.5 V)" | Versal 703 | -                | 10k PD
 |===
 
@@ -212,25 +212,25 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | Pin +
   No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
 | B1  | GTYP_REFCLKN0_103       | Versal GTYP 0 REFCLKN0                                              | Versal 103 | - (GTYP Power)   | -
-| B2  | GND                     | GND                                                                 | -          | -                | -
+| B2  | GND                     | Ground                                                              | -          | -                | -
 | B3  | GTYP_RXN0_103           | Versal GTYP 0 RXN0                                                  | Versal 103 | - (GTYP Power)   | -
-| B4  | GND                     | GND                                                                 | -          | -                | -
+| B4  | GND                     | Ground                                                              | -          | -                | -
 | B5  | GTYP_RXN1_103           | Versal GTYP 0 RXN1                                                  | Versal 103 | - (GTYP Power)   | -
-| B6  | GND                     | GND                                                                 | -          | -                | -
+| B6  | GND                     | Ground                                                              | -          | -                | -
 | B7  | GTYP_RXN2_103           | Versal GTYP 0 RXN2                                                  | Versal 103 | - (GTYP Power)   | -
-| B8  | GND                     | GND                                                                 | -          | -                | -
+| B8  | GND                     | Ground                                                              | -          | -                | -
 | B9  | GTYP_RXN3_103           | Versal GTYP 0 RXN                                                   | Versal 103 | - (GTYP Power)   | -
-| B10 | GND                     | GND                                                                 | -          | -                | -
+| B10 | GND                     | Ground                                                              | -          | -                | -
 | B11 | GTYP_REFCLKN0_104       | Versal GTYP 1 REFCLKN0                                              | Versal 104 | - (GTYP Power)   | -
-| B12 | GND                     | GND                                                                 | -          | -                | -
+| B12 | GND                     | Ground                                                              | -          | -                | -
 | B13 | GTYP_RXN0_104           | Versal GTYP 1 RXN0                                                  | Versal 104 | - (GTYP Power)   | -
-| B14 | GND                     | GND                                                                 | -          | -                | -
+| B14 | GND                     | Ground                                                              | -          | -                | -
 | B15 | GTYP_RXN1_104           | Versal GTYP 1 RXN1                                                  | Versal 104 | - (GTYP Power)   | -
-| B16 | GND                     | GND                                                                 | -          | -                | -
+| B16 | GND                     | Ground                                                              | -          | -                | -
 | B17 | GTYP_RXN2_104           | Versal GTYP 1 RXN2                                                  | Versal 104 | - (GTYP Power)   | -
-| B18 | GND                     | GND                                                                 | -          | -                | -
+| B18 | GND                     | Ground                                                              | -          | -                | -
 | B19 | GTYP_RXN3_104           | Versal GTYP 1 RXN3                                                  | Versal 104 | - (GTYP Power)   | -
-| B20 | GND                     | GND                                                                 | -          | -                | -
+| B20 | GND                     | Ground                                                              | -          | -                | -
 | B21 | VCCO_302_IN             | Versal PL HDIO Bank Power Input + (1.8 V / 2.5 V / 3.3 V)           | Versal 302 | -                | 10k PD
 | B22 | IO_L0N_302              | Versal PL HDIO L0N                                                  | Versal 302 | VCCO_302_IN      | -
 | B23 | IO_L3P_302              | Versal PL HDIO L3P                                                  | Versal 302 | VCCO_302_IN      | -
@@ -258,44 +258,44 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 |===
 | Pin +
   No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
-| C1  | GND                     | GND                                                                 | -          | -                | -
+| C1  | GND                     | Ground                                                              | -          | -                | -
 | C2  | GTYP_TXP0_103           | Versal GTYP 0 TXP0                                                  | Versal 103 | - (GTYP Power)   | -
-| C3  | GND                     | GND                                                                 | -          | -                | -
+| C3  | GND                     | Ground                                                              | -          | -                | -
 | C4  | GTYP_TXP1_103           | Versal GTYP 0 TXP1                                                  | Versal 103 | - (GTYP Power)   | -
-| C5  | GND                     | GND                                                                 | -          | -                | -
+| C5  | GND                     | Ground                                                              | -          | -                | -
 | C6  | GTYP_TXP2_103           | Versal GTYP 0 TXP2                                                  | Versal 103 | - (GTYP Power)   | -
-| C7  | GND                     | GND                                                                 | -          | -                | -
+| C7  | GND                     | Ground                                                              | -          | -                | -
 | C8  | GTYP_TXP3_103           | Versal GTYP 0 TXP3                                                  | Versal 103 | - (GTYP Power)   | -
-| C9  | GND                     | GND                                                                 | -          | -                | -
+| C9  | GND                     | Ground                                                              | -          | -                | -
 | C10 | GTYP_REFCLKP1_103       | Versal GTYP 0 REFCLKP1                                              | Versal 103 | - (GTYP Power)   | -
-| C11 | GND                     | GND                                                                 | -          | -                | -
+| C11 | GND                     | Ground                                                              | -          | -                | -
 | C12 | GTYP_TXP0_104           | Versal GTYP 1 TXP0                                                  | Versal 104 | - (GTYP Power)   | -
-| C13 | GND                     | GND                                                                 | -          | -                | -
+| C13 | GND                     | Ground                                                              | -          | -                | -
 | C14 | GTYP_TXP1_104           | Versal GTYP 1 TXP1                                                  | Versal 104 | - (GTYP Power)   | -
-| C15 | GND                     | GND                                                                 | -          | -                | -
+| C15 | GND                     | Ground                                                              | -          | -                | -
 | C16 | GTYP_TXP2_104           | Versal GTYP 1 TXP2                                                  | Versal 104 | - (GTYP Power)   | -
-| C17 | GND                     | GND                                                                 | -          | -                | -
+| C17 | GND                     | Ground                                                              | -          | -                | -
 | C18 | GTYP_TXP3_104           | Versal GTYP 1 TXP3                                                  | Versal 104 | - (GTYP Power)   | -
-| C19 | GND                     | GND                                                                 | -          | -                | -
+| C19 | GND                     | Ground                                                              | -          | -                | -
 | C20 | GTYP_REFCLKP1_104       | Versal GTYP 1 REFCLKP1                                              | Versal 104 | - (GTYP Power)   | -
-| C21 | GND                     | GND                                                                 | -          | -                | -
-| C22 | GND                     | GND                                                                 | -          | -                | -
+| C21 | GND                     | Ground                                                              | -          | -                | -
+| C22 | GND                     | Ground                                                              | -          | -                | -
 | C23 | IO_L3N_302              | Versal PL HDIO L3N                                                  | Versal 302 | VCCO_302_IN      | -
-| C24 | GND                     | GND                                                                 | -          | -                | -
+| C24 | GND                     | Ground                                                              | -          | -                | -
 | C25 | IO_L4N_302              | Versal PL HDIO L4N                                                  | Versal 302 | VCCO_302_IN      | -
-| C26 | GND                     | GND                                                                 | -          | -                | -
+| C26 | GND                     | Ground                                                              | -          | -                | -
 | C27 | IO_L6N_GC_XCC_N2P1_703  | Versal PL XPIO L6N_GC_XCC_N2P1                                      | Versal 703 | VCCO_703_IN      | -
-| C28 | GND                     | GND                                                                 | -          | -                | -
+| C28 | GND                     | Ground                                                              | -          | -                | -
 | C29 | IO_L7N_N2P3_703         | Versal PL XPIO L7N_N2P3                                             | Versal 703 | VCCO_703_IN      | -
-| C30 | GND                     | GND                                                                 | -          | -                | -
+| C30 | GND                     | Ground                                                              | -          | -                | -
 | C31 | IO_L8N_N2P5_703         | Versal PL XPIO L8N_N2P5                                             | Versal 703 | VCCO_703_IN      | -
-| C32 | GND                     | GND                                                                 | -          | -                | -
+| C32 | GND                     | Ground                                                              | -          | -                | -
 | C33 | IO_L9N_GC_XCC_N3P1_703  | Versal PL XPIO L9N_GC_XCC_N3P1                                      | Versal 703 | VCCO_703_IN      | -
-| C34 | GND                     | GND                                                                 | -          | -                | -
+| C34 | GND                     | Ground                                                              | -          | -                | -
 | C35 | IO_L10N_N3P3_703        | Versal PL XPIO L10N_N3P3                                            | Versal 703 | VCCO_703_IN      | -
-| C36 | GND                     | GND                                                                 | -          | -                | -
+| C36 | GND                     | Ground                                                              | -          | -                | -
 | C37 | IO_L11N_N3P5_703        | Versal PL XPIO L11P_N3P5                                            | Versal 703 | VCCO_703_IN      | -
-| C38 | GND                     | GND                                                                 | -          | -                | -
+| C38 | GND                     | Ground                                                              | -          | -                | -
 | C39 | IO_L24N_GC_XCC_N8P1_703 | Versal PL XPIO L24N_GC_XCC_N8P1                                     | Versal 703 | VCCO_703_IN      | -
 | C40 | VCCO_302_703_PWREN      | Versal PL 302/703 Bank power enable output                          | -          | VDD_1V8_OUT      | -
 |===
@@ -305,45 +305,45 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 |===
 | Pin +
   No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
-| D1  | GND                     | GND                                                                 | -          | -                | -
+| D1  | GND                     | Ground                                                              | -          | -                | -
 | D2  | GTYP_TXN0_103           | Versal GTYP 0 TXN0                                                  | Versal 103 | - (GTYP Power)   | -
-| D3  | GND                     | GND                                                                 | -          | -                | -
+| D3  | GND                     | Ground                                                              | -          | -                | -
 | D4  | GTYP_TXN1_103           | Versal GTYP 0 TXN1                                                  | Versal 103 | - (GTYP Power)   | -
-| D5  | GND                     | GND                                                                 | -          | -                | -
+| D5  | GND                     | Ground                                                              | -          | -                | -
 | D6  | GTYP_TXN2_103           | Versal GTYP 0 TXN2                                                  | Versal 103 | - (GTYP Power)   | -
-| D7  | GND                     | GND                                                                 | -          | -                | -
+| D7  | GND                     | Ground                                                              | -          | -                | -
 | D8  | GTYP_TXN3_103           | Versal GTYP 0 TXN3                                                  | Versal 103 | - (GTYP Power)   | -
-| D9  | GND                     | GND                                                                 | -          | -                | -
+| D9  | GND                     | Ground                                                              | -          | -                | -
 | D10 | GTYP_REFCLKN1_103       | Versal GTYP 0 REFCLKN1                                              | Versal 103 | - (GTYP Power)   | -
-| D11 | GND                     | GND                                                                 | -          | -                | -
+| D11 | GND                     | Ground                                                              | -          | -                | -
 | D12 | GTYP_TXN0_104           | Versal GTYP 1 TXN0                                                  | Versal 104 | - (GTYP Power)   | -
-| D13 | GND                     | GND                                                                 | -          | -                | -
+| D13 | GND                     | Ground                                                              | -          | -                | -
 | D14 | GTYP_TXN1_104           | Versal GTYP 1 TXN1                                                  | Versal 104 | - (GTYP Power)   | -
-| D15 | GND                     | GND                                                                 | -          | -                | -
+| D15 | GND                     | Ground                                                              | -          | -                | -
 | D16 | GTYP_TXN2_104           | Versal GTYP 1 TXN2                                                  | Versal 104 | - (GTYP Power)   | -
-| D17 | GND                     | GND                                                                 | -          | -                | -
+| D17 | GND                     | Ground                                                              | -          | -                | -
 | D18 | GTYP_TXN3_104           | Versal GTYP 1 TXN4                                                  | Versal 104 | - (GTYP Power)   | -
-| D19 | GND                     | GND                                                                 | -          | -                | -
+| D19 | GND                     | Ground                                                              | -          | -                | -
 | D20 | GTYP_REFCLKN1_104       | Versal GTYP 1 REFCLKN1                                              | Versal 104 | - (GTYP Power)   | -
-| D21 | GND                     | GND                                                                 | -          | -                | -
+| D21 | GND                     | Ground                                                              | -          | -                | -
 | D22 | IO_L5P_HDGC_302         | Versal PL HDIO L5P_HDGC                                             | Versal 302 | VCCO_302_IN      | -
-| D23 | GND                     | GND                                                                 | -          | -                | -
+| D23 | GND                     | Ground                                                              | -          | -                | -
 | D24 | IO_L6P_HDGC_302         | Versal PL HDIO L6P_HDGC                                             | Versal 302 | VCCO_302_IN      | -
-| D25 | GND                     | GND                                                                 | -          | -                | -
+| D25 | GND                     | Ground                                                              | -          | -                | -
 | D26 | IO_L7P_302              | Versal PL HDIO L7P                                                  | Versal 302 | VCCO_302_IN      | -
-| D27 | GND                     | GND                                                                 | -          | -                | -
+| D27 | GND                     | Ground                                                              | -          | -                | -
 | D28 | IO_L12P_GC_XCC_N4P0_703 | Versal PL XPIO L12P_GC_XCC_N4P0                                     | Versal 703 | VCCO_703_IN      | -
-| D29 | GND                     | GND                                                                 | -          | -                | -
+| D29 | GND                     | Ground                                                              | -          | -                | -
 | D30 | IO_L13P_N4P2_703        | Versal PL XPIO L13P_N4P2                                            | Versal 703 | VCCO_703_IN      | -
-| D31 | GND                     | GND                                                                 | -          | -                | -
+| D31 | GND                     | Ground                                                              | -          | -                | -
 | D32 | IO_L14P_N4P4_703        | Versal PL XPIO L14P_N4P4                                            | Versal 703 | VCCO_703_IN      | -
-| D33 | GND                     | GND                                                                 | -          | -                | -
+| D33 | GND                     | Ground                                                              | -          | -                | -
 | D34 | IO_L15P_XCC_N5P0_703    | Versal PL XPIO L15P_XCC_N5P0                                        | Versal 703 | VCCO_703_IN      | -
-| D35 | GND                     | GND                                                                 | -          | -                | -
+| D35 | GND                     | Ground                                                              | -          | -                | -
 | D36 | IO_L16P_N5P2_703        | Versal PL XPIO L16P_N5P2                                            | Versal 703 | VCCO_703_IN      | -
-| D37 | GND                     | GND                                                                 | -          | -                | -
+| D37 | GND                     | Ground                                                              | -          | -                | -
 | D38 | IO_L17P_N5P4_703        | Versal PL XPIO L17P_N5P4                                            | Versal 703 | VCCO_703_IN      | -
-| D39 | GND                     | GND                                                                 | -          | -                | -
+| D39 | GND                     | Ground                                                              | -          | -                | -
 | D40 | VCCO_302_703_PWREN      | Versal PL 302/703 Bank power enable output                          | -          | VDD_1V8_OUT      | -
 |===
 
@@ -353,25 +353,25 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | Pin +
   No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
 | E1  | VCC_BATT_IN             | Power input for the real-time clock (RTC)                           | -          | -                | -
-| E2  | GND                     | GND                                                                 | -          | -                | -
+| E2  | GND                     | Ground                                                              | -          | -                | -
 | E3  | VCC_BATT_IN             | Power input for the real-time clock (RTC)                           | -          | -                | -
-| E4  | GND                     | GND                                                                 | -          | -                | -
+| E4  | GND                     | Ground                                                              | -          | -                | -
 | E5  | M2GL_MSIO222PB5         | IGLOO2 MSIO 0 MSIO222PB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
-| E6  | GND                     | GND                                                                 | -          | -                | -
+| E6  | GND                     | Ground                                                              | -          | -                | -
 | E7  | M2GL_MSIO228PB5         | IGLOO2 MSIO 0 MSIO228PB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
-| E8  | GND                     | GND                                                                 | -          | -                | -
+| E8  | GND                     | Ground                                                              | -          | -                | -
 | E9  | M2GL_MSIO230PB5         | IGLOO2 MSIO 0 MSIO230PB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
-| E10 | GND                     | GND                                                                 | -          | -                | -
+| E10 | GND                     | Ground                                                              | -          | -                | -
 | E11 | M2GL_MSIO156PB8         | IGLOO2 MSIO 1 MSIO156PB8                                            | IGLOO2 8   | M2GL_VDDI8_IN    | -
-| E12 | GND                     | GND                                                                 | -          | -                | -
+| E12 | GND                     | Ground                                                              | -          | -                | -
 | E13 | M2GL_MSIO158PB8         | IGLOO2 MSIO 1 MSIO158PB8                                            | IGLOO2 8   | M2GL_VDDI8_IN    | -
-| E14 | GND                     | GND                                                                 | -          | -                | -
+| E14 | GND                     | Ground                                                              | -          | -                | -
 | E15 | M2GL_RSVD0              | Reserved                                                            | -          | -                | -
-| E16 | GND                     | GND                                                                 | -          | -                | -
+| E16 | GND                     | Ground                                                              | -          | -                | -
 | E17 | RSVD                    | Reserved                                                            | -          | -                | -
-| E18 | GND                     | GND                                                                 | -          | -                | -
+| E18 | GND                     | Ground                                                              | -          | -                | -
 | E19 | RSVD                    | Reserved                                                            | -          | -                | -
-| E20 | GND                     | GND                                                                 | -          | -                | -
+| E20 | GND                     | Ground                                                              | -          | -                | -
 | E21 | IO_L8P_302              | Versal PL HDIO L8P                                                  | Versal 302 | VCCO_302_IN      | -
 | E22 | IO_L5N_HDGC_302         | Versal PL HDIO L5N_HDGC                                             | Versal 302 | VCCO_302_IN      | -
 | E23 | IO_L9P_302              | Versal PL HDIO L9P                                                  | Versal 302 | VCCO_302_IN      | -
@@ -399,10 +399,10 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 |===
 | Pin +
   No. | Signal Name             | Description                                                         | Bank       | Power Domain     | Pull
-| F1  | GND                     | GND                                                                 | -          | -                | -
-| F2  | GND                     | GND                                                                 | -          | -                | -
-| F3  | GND                     | GND                                                                 | -          | -                | -
-| F4  | GND                     | GND                                                                 | -          | -                | -
+| F1  | GND                     | Ground                                                              | -          | -                | -
+| F2  | GND                     | Ground                                                              | -          | -                | -
+| F3  | GND                     | Ground                                                              | -          | -                | -
+| F4  | GND                     | Ground                                                              | -          | -                | -
 | F5  | M2GL_MSIO222NB5         | IGLOO2 MSIO 0 MSIO222NB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | F6  | M2GL_MSIO226PB5         | IGLOO2 MSIO 0 MSIO226PB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | F7  | M2GL_MSIO226NB5         | IGLOO2 MSIO 0 MSIO226NB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
@@ -420,23 +420,23 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | F19 | RSVD                    | Reserved                                                            | -          | -                | -
 | F20 | RSVD                    | Reserved                                                            | -          | -                | -
 | F21 | IO_L8N_302              | Versal PL HDIO L8N                                                  | Versal 302 | VCCO_302_IN      | -
-| F22 | GND                     | GND                                                                 | -          | -                | -
+| F22 | GND                     | Ground                                                              | -          | -                | -
 | F23 | IO_L9N_302              | Versal PL HDIO L9N                                                  | Versal 302 | VCCO_302_IN      | -
-| F24 | GND                     | GND                                                                 | -          | -                | -
+| F24 | GND                     | Ground                                                              | -          | -                | -
 | F25 | IO_L10N_302             | Versal PL HDIO L10N                                                 | Versal 302 | VCCO_302_IN      | -
-| F26 | GND                     | GND                                                                 | -          | -                | -
+| F26 | GND                     | Ground                                                              | -          | -                | -
 | F27 | IO_L18N_XCC_N6P1_703    | Versal PL XPIO L18N_XCC_N6P1                                        | Versal 703 | VCCO_703_IN      | -
-| F28 | GND                     | GND                                                                 | -          | -                | -
+| F28 | GND                     | Ground                                                              | -          | -                | -
 | F29 | IO_L19N_N6P3_703        | Versal PL XPIO L19N_N6P3                                            | Versal 703 | VCCO_703_IN      | -
-| F30 | GND                     | GND                                                                 | -          | -                | -
+| F30 | GND                     | Ground                                                              | -          | -                | -
 | F31 | IO_L20N_N6P5_703        | Versal PL XPIO L20N_N6P5                                            | Versal 703 | VCCO_703_IN      | -
-| F32 | GND                     | GND                                                                 | -          | -                | -
+| F32 | GND                     | Ground                                                              | -          | -                | -
 | F33 | IO_L21N_XCC_N7P1_703    | Versal PL XPIO L21N_XCC_N7P1                                        | Versal 703 | VCCO_703_IN      | -
-| F34 | GND                     | GND                                                                 | -          | -                | -
+| F34 | GND                     | Ground                                                              | -          | -                | -
 | F35 | IO_L22N_N7P3_703        | Versal PL XPIO L22N_N7P3                                            | Versal 703 | VCCO_703_IN      | -
-| F36 | GND                     | GND                                                                 | -          | -                | -
+| F36 | GND                     | Ground                                                              | -          | -                | -
 | F37 | IO_L23N_N7P5_703        | Versal PL XPIO L23N_N7P5                                            | Versal 703 | VCCO_703_IN      | -
-| F38 | GND                     | GND                                                                 | -          | -                | -
+| F38 | GND                     | Ground                                                              | -          | -                | -
 | F39 | IO_L26N_N8P5_703        | Versal PL XPIO L26N_N8P5                                            | Versal 703 | VCCO_703_IN      | -
 | F40 | IO_L25N_N8P3_703        | Versal PL XPIO L25N_N8P3                                            | Versal 703 | VCCO_703_IN      | -
 |===
@@ -449,18 +449,18 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | G1  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | G2  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | G3  | VIN_5V0                 | Main power input                                                    | -          | -                | -
-| G4  | GND                     | GND                                                                 | -          | -                | -
+| G4  | GND                     | Ground                                                              | -          | -                | -
 | G5  | M2GL_MSIO208PB5         | IGLOO2 MSIO 0 MSIO208PB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | G6  | M2GL_MSIO209PB5         | IGLOO2 MSIO 0 MSIO209PB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | G7  | M2GL_MSIO212PB5         | IGLOO2 MSIO 0 MSIO212PB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | G8  | M2GL_MSIO213PB5         | IGLOO2 MSIO 0 MSIO213PB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | G9  | M2GL_MSIO216PB5         | IGLOO2 MSIO 0 MSIO216PB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | G10 | M2GL_MSIO221PB5         | IGLOO2 MSIO 0 MSIO221PB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
-| G11 | GND                     | GND                                                                 | -          | -                | -
+| G11 | GND                     | Ground                                                              | -          | -                | -
 | G12 | M2GL_MSIO142PB8         | IGLOO2 MSIO 1 MSIO142PB8                                            | IGLOO2 8   | M2GL_VDDI8_IN    | -
 | G13 | M2GL_MSIO143PB8         | IGLOO2 MSIO 1 MSIO143PB8                                            | IGLOO2 8   | M2GL_VDDI8_IN    | -
 | G14 | M2GL_MSIO145PB8         | IGLOO2 MSIO 1 MSIO145PB8                                            | IGLOO2 8   | M2GL_VDDI8_IN    | -
-| G15 | GND                     | GND                                                                 | -          | -                | -
+| G15 | GND                     | Ground                                                              | -          | -                | -
 | G16 | M2GL_UART_TX            | IGLOO2 UART TX output                                               | IGLOO2 3   | VDD_1V8_OUT      | -
 | G17 | M2GL_UART_RX            | IGLOO2 UART RX input                                                | IGLOO2 3   | VDD_1V8_OUT      | 10k PU
 | G18 | M2GL_UART_DE            | IGLOO2 UART TX enable output                                        | IGLOO2 3   | VDD_1V8_OUT      | -
@@ -469,7 +469,7 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | G21 | MODE0_503               | Versal Boot Modesignal bit 0 input                                  | Versal 503 | VCCO_503_OUT     | 4.7k PU
 | G22 | MODE2_503               | Versal Boot Modesignal bit 2 input                                  | Versal 503 | VCCO_503_OUT     | 4.7k PU
 | G23 | ERROR_OUT_503           | Versal Error output                                                 | Versal 503 | VCCO_503_OUT     | 4.7k PU
-| G24 | GND                     | GND                                                                 | -          | -                | -
+| G24 | GND                     | Ground                                                              | -          | -                | -
 | G25 | LPD_MIO12_502           | Versal LPD MIO bit 12                                               | Versal 502 | VCCO_502_IN      | -
 | G26 | LPD_MIO14_502           | Versal LPD MIO bit 14                                               | Versal 502 | VCCO_502_IN      | -
 | G27 | LPD_MIO16_502           | Versal LPD MIO bit 16                                               | Versal 502 | VCCO_502_IN      | -
@@ -477,7 +477,7 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | G29 | LPD_MIO20_502           | Versal LPD MIO bit 20                                               | Versal 502 | VCCO_502_IN      | -
 | G30 | LPD_MIO22_502           | Versal LPD MIO bit 22                                               | Versal 502 | VCCO_502_IN      | -
 | G31 | LPD_MIO24_502           | Versal LPD MIO bit 24                                               | Versal 502 | VCCO_502_IN      | -
-| G32 | GND                     | GND                                                                 | -          | -                | -
+| G32 | GND                     | Ground                                                              | -          | -                | -
 | G33 | RSVD                    | Reserved                                                            | -          | -                | -
 | G34 | PMC_MIO38_501           | Versal LPD MIO bit 38                                               | Versal 501 | VCCO_500_501_OUT | -
 | G35 | PMC_MIO40_501           | Versal LPD MIO bit 40                                               | Versal 501 | VCCO_500_501_OUT | -
@@ -485,7 +485,7 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | G37 | PMC_MIO44_501           | Versal LPD MIO bit 44                                               | Versal 501 | VCCO_500_501_OUT | -
 | G38 | PMC_MIO46_501           | Versal LPD MIO bit 46                                               | Versal 501 | VCCO_500_501_OUT | -
 | G39 | PMC_MIO48_501           | Versal LPD MIO bit 48                                               | Versal 501 | VCCO_500_501_OUT | -
-| G40 | GND                     | GND                                                                 | -          | -                | -
+| G40 | GND                     | Ground                                                              | -          | -                | -
 |===
 
 .Board-to-Board Connector Signal Details (H)
@@ -496,27 +496,27 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | H1  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | H2  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | H3  | VIN_5V0                 | Main power input                                                    | -          | -                | -
-| H4  | GND                     | GND                                                                 | -          | -                | -
+| H4  | GND                     | Ground                                                              | -          | -                | -
 | H5  | M2GL_MSIO208NB5         | IGLOO2 MSIO 0 MSIO208NB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | H6  | M2GL_MSIO209NB5         | IGLOO2 MSIO 0 MSIO209NB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | H7  | M2GL_MSIO212NB5         | IGLOO2 MSIO 0 MSIO212NB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | H8  | M2GL_MSIO213NB5         | IGLOO2 MSIO 0 MSIO213NB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | H9  | M2GL_MSIO216NB5         | IGLOO2 MSIO 0 MSIO216NB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | H10 | M2GL_MSIO221NB5         | IGLOO2 MSIO 0 MSIO221NB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
-| H11 | GND                     | GND                                                                 | -          | -                | -
+| H11 | GND                     | Ground                                                              | -          | -                | -
 | H12 | M2GL_MSIO142NB8         | IGLOO2 MSIO 1 MSIO142NB8                                            | IGLOO2 8   | M2GL_VDDI8_IN    | -
 | H13 | M2GL_MSIO143NB8         | IGLOO2 MSIO 1 MSIO143NB8                                            | IGLOO2 8   | M2GL_VDDI8_IN    | -
 | H14 | M2GL_MSIO145NB8         | IGLOO2 MSIO 1 MSIO145NB8                                            | IGLOO2 8   | M2GL_VDDI8_IN    | -
-| H15 | GND                     | GND                                                                 | -          | -                | -
+| H15 | GND                     | Ground                                                              | -          | -                | -
 | H16 | M2GL_JTAG_TRSTB         | IGLOO2 JTAG TRSTB input                                             | IGLOO2 4   | M2GL_VDDI4_OUT   | 1k PD
 | H17 | M2GL_WDOG_OUT           | IGLOO2 JTAG WDOG_OUT output                                         | IGLOO2 3   | VDD_1V8_OUT      | -
-| H18 | GND                     | GND                                                                 | -          | -                | -
-| H19 | GND                     | GND                                                                 | -          | -                | -
-| H20 | GND                     | GND                                                                 | -          | -                | -
+| H18 | GND                     | Ground                                                              | -          | -                | -
+| H19 | GND                     | Ground                                                              | -          | -                | -
+| H20 | GND                     | Ground                                                              | -          | -                | -
 | H21 | MODE1_503               | Versal Boot Modesignal bit 1 input                                  | Versal 503 | VCCO_503_OUT     | 4.7k PU
 | H22 | MODE3_503               | Versal Boot Modesignal bit 3 input                                  | Versal 503 | VCCO_503_OUT     | 4.7k PU
 | H23 | DONE_503                | Versal FPGA Configuration Done output                               | Versal 503 | VCCO_503_OUT     | 4.7k PU
-| H24 | GND                     | GND                                                                 | -          | -                | -
+| H24 | GND                     | Ground                                                              | -          | -                | -
 | H25 | LPD_MIO13_502           | Versal LPD MIO bit 13                                               | Versal 502 | VCCO_502_IN      | -
 | H26 | LPD_MIO15_502           | Versal LPD MIO bit 15                                               | Versal 502 | VCCO_502_IN      | -
 | H27 | LPD_MIO17_502           | Versal LPD MIO bit 17                                               | Versal 502 | VCCO_502_IN      | -
@@ -524,7 +524,7 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | H29 | LPD_MIO21_502           | Versal LPD MIO bit 21                                               | Versal 502 | VCCO_502_IN      | -
 | H30 | LPD_MIO23_502           | Versal LPD MIO bit 23                                               | Versal 502 | VCCO_502_IN      | -
 | H31 | LPD_MIO25_502           | Versal LPD MIO bit 25                                               | Versal 502 | VCCO_502_IN      | -
-| H32 | GND                     | GND                                                                 | -          | -                | -
+| H32 | GND                     | Ground                                                              | -          | -                | -
 | H33 | PMC_MIO37_501           | Versal PMC MIO bit 37                                               | Versal 501 | VCCO_500_501_OUT | -
 | H34 | PMC_MIO39_501           | Versal PMC MIO bit 39                                               | Versal 501 | VCCO_500_501_OUT | -
 | H35 | PMC_MIO41_501           | Versal PMC MIO bit 41                                               | Versal 501 | VCCO_500_501_OUT | -
@@ -532,7 +532,7 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | H37 | PMC_MIO45_501           | Versal PMC MIO bit 45                                               | Versal 501 | VCCO_500_501_OUT | -
 | H38 | PMC_MIO47_501           | Versal PMC MIO bit 47                                               | Versal 501 | VCCO_500_501_OUT | -
 | H39 | PMC_MIO49_501           | Versal PMC MIO bit 49                                               | Versal 501 | VCCO_500_501_OUT | -
-| H40 | GND                     | GND                                                                 | -          | -                | -
+| H40 | GND                     | Ground                                                              | -          | -                | -
 |===
 
 .Board-to-Board Connector Signal Details (J)
@@ -543,7 +543,7 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | J1  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | J2  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | J3  | VIN_5V0                 | Main power input                                                    | -          | -                | -
-| J4  | GND                     | GND                                                                 | -          | -                | -
+| J4  | GND                     | Ground                                                              | -          | -                | -
 | J5  | M2GL_MSIO196PB5         | IGLOO2 MSIO 0 MSIO196PB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | J6  | M2GL_MSIO197PB5         | IGLOO2 MSIO 0 MSIO197PB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | J7  | M2GL_MSIO198PB5         | IGLOO2 MSIO 0 MSIO198PB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
@@ -563,7 +563,7 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | J21 | TCK_503                 | Versal JTAG TCK input                                               | Versal 503 | VCCO_503_OUT     | 4.7k PU
 | J22 | TDO_503                 | Versal JTAG TDO output                                              | Versal 503 | VCCO_503_OUT     | 4.7k PU
 | J23 | RSVD                    | -                                                                   | -          | -                | -
-| J24 | GND                     | GND                                                                 | -          | -                | -
+| J24 | GND                     | Ground                                                              | -          | -                | -
 | J25 | LPD_MIO0_502            | Versal LPD MIO bit 0                                                | Versal 502 | VCCO_502_IN      | -
 | J26 | LPD_MIO2_502            | Versal LPD MIO bit 2                                                | Versal 502 | VCCO_502_IN      | -
 | J27 | LPD_MIO4_502            | Versal LPD MIO bit 4                                                | Versal 502 | VCCO_502_IN      | -
@@ -590,7 +590,7 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | K1  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | K2  | VIN_5V0                 | Main power input                                                    | -          | -                | -
 | K3  | VIN_5V0                 | Main power input                                                    | -          | -                | -
-| K4  | GND                     | GND                                                                 | -          | -                | -
+| K4  | GND                     | Ground                                                              | -          | -                | -
 | K5  | M2GL_MSIO196NB5         | IGLOO2 MSIO 0 MSIO196NB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | K6  | M2GL_MSIO197NB5         | IGLOO2 MSIO 0 MSIO197NB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
 | K7  | M2GL_MSIO198NB5         | IGLOO2 MSIO 0 MSIO198NB5                                            | IGLOO2 5   | M2GL_VDDI5_IN    | -
@@ -610,7 +610,7 @@ ranges from 02.0 to 11.0 depending on the required stack height).
 | K21 | TDI_503                 | Versal JTAG TDI input                                               | Versal 503 | VCCO_503_OUT     | 4.7k PU
 | K22 | TMS_503                 | Versal JTAG TMS input                                               | Versal 503 | VCCO_503_OUT     | 4.7k PU
 | K23 | VCCO_503_OUT            | Versal Bank 503 1.8V IO power output                                | -          | -                | -
-| K24 | GND                     | GND                                                                 | -          | -                | -
+| K24 | GND                     | Ground                                                              | -          | -                | -
 | K25 | LPD_MIO1_502            | Versal LPD MIO bit 1                                                | Versal 502 | VCCO_502_IN      | -
 | K26 | LPD_MIO3_502            | Versal LPD MIO bit 3                                                | Versal 502 | VCCO_502_IN      | -
 | K27 | LPD_MIO5_502            | Versal LPD MIO bit 5                                                | Versal 502 | VCCO_502_IN      | -
