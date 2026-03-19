@@ -1,6 +1,6 @@
 name: scobc-v1
 title: SC-OBC Module V1
-version: "latest"
+version: "v0.3"
 start_page: index.adoc
 nav:
   - modules/ROOT/nav.adoc
