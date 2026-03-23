@@ -8,3 +8,4 @@ nav:
   - modules/dev-board/nav.adoc
   - modules/software/nav.adoc
   - modules/fpga/nav.adoc
+  - modules/ai-engine/nav.adoc
