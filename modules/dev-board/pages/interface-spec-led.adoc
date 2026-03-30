@@ -15,40 +15,36 @@ image::interface-layout-led.webp[Interface_Layout1.svg]
 
 == Versal Boot Status Indicator (LED1)
 
-LED1 is a green indicator that shows the Versal's boot status.
-It turns off upon POR (Power On Reset) and turns on when the boot
-process is successfully completed according to the PMC Start-up
-Flowchart.
+LED1 shows the Versal's boot status. It turns off upon POR (Power On
+Reset) and turns on when the boot process is successfully completed
+according to the PMC Start-up Flowchart.
 
 == Versal Error Status Indicator (LED2)
 
-LED2 is a red indicator that shows when a Versal error has occurred.
-It remains off during normal operation and turns on when an error
-occurs.
+LED2 shows when a Versal error has occurred. It remains off during
+normal operation and turns on when an error occurs.
 
 == 1Gbps Ethernet Link Status Indicator (LED3)
 
-LED3 is an indicator that shows the communication status of CON10.  It
-lights up when a 1Gbps Ethernet communication is established.  It
-remains off for 10Mbps and 100Mbps connections.
+LED3 shows the link status of CON10. It lights up when a 1Gbps
+Ethernet link is established. It remains off for 10Mbps and 100Mbps
+connections.
 
 == FMC Module Power Supply Indicator (LED4)
 
-LED4 is a green indicator that shows the power supply status to
-the FMC module.  It lights up when all of the following are met: power
-is supplied from the Dev Board to the OBC, the Versal has booted up
-and power is being supplied normally to the FMC module.
-
+LED4 shows the power supply status to the FMC module. It lights up
+when all of the following conditions are met: power is supplied from
+the Dev Board to the OBC, the Versal has completed booting, and power
+is being supplied normally to the FMC module.
 
 == Dev Board Main Power Supply Indicator (LED5)
 
-LED5 is a green indicator that shows the status of the main
-power supply.  It lights up when main power is supplied normally from
-CON16 or CON20.  It turns off when the SW4 toggle is moved to the
-“OFF” side.  It also turns off if a current of approximately 5A or
-more flows through the main power supply.
+LED5 shows the status of the main power supply. It lights up when main
+power is supplied normally from CON16 or CON20. It turns off when the
+SW4 toggle is moved to the "OFF" side. It also turns off if a current
+of approximately 5A or more flows through the main power supply.
 
 == User LED (LED6~LED9)
 
-LED6–LED9 are green LEDs that can be used as desired by the
-user.  For details, refer to CON17.
+LED6 to LED9 are User LEDs that can be used as desired by the user.
+For details, refer to CON17.
