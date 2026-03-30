@@ -5,17 +5,17 @@ image::interface-layout-led.webp[Interface_Layout1.svg]
 [width="100%",cols="1,3,3,1",options="header",]
 |===
 |Part Number |Interface Name |Form Factor |Remarks
-|LED1 |Versal Boot Status Indicator |LED (Yellow-Green) |
+|LED1 |Versal Boot Status Indicator |LED (Green) |
 |LED2 |Versal Error Status Indicator |LED (Red) |
-|LED3 |1Gbps Ethernet Link Status Indicator |LED (Yellow-Green) |
-|LED4 |FMC Module Power Supply Indicator |LED (Yellow-Green) |
-|LED5 |Dev Board Main Power Supply Indicator |LED (Yellow-Green) |
-|LED6~LED9 |User LED |LED (Yellow-Green) |
+|LED3 |1Gbps Ethernet Link Status Indicator |LED (Green) |
+|LED4 |FMC Module Power Supply Indicator |LED (Green) |
+|LED5 |Dev Board Main Power Supply Indicator |LED (Green) |
+|LED6~LED9 |User LED |LED (Green) |
 |===
 
 == Versal Boot Status Indicator (LED1)
 
-LED1 is a yellow-green indicator that shows the Versal's boot status.
+LED1 is a green indicator that shows the Versal's boot status.
 It turns off upon POR (Power On Reset) and turns on when the boot
 process is successfully completed according to the PMC Start-up
 Flowchart.
@@ -34,7 +34,7 @@ remains off for 10Mbps and 100Mbps connections.
 
 == FMC Module Power Supply Indicator (LED4)
 
-LED4 is a yellow-green indicator that shows the power supply status to
+LED4 is a green indicator that shows the power supply status to
 the FMC module.  It lights up when all of the following are met: power
 is supplied from the Dev Board to the OBC, the Versal has booted up
 and power is being supplied normally to the FMC module.
@@ -42,7 +42,7 @@ and power is being supplied normally to the FMC module.
 
 == Dev Board Main Power Supply Indicator (LED5)
 
-LED5 is a yellow-green indicator that shows the status of the main
+LED5 is a green indicator that shows the status of the main
 power supply.  It lights up when main power is supplied normally from
 CON16 or CON20.  It turns off when the SW4 toggle is moved to the
 “OFF” side.  It also turns off if a current of approximately 5A or
@@ -50,5 +50,5 @@ more flows through the main power supply.
 
 == User LED (LED6~LED9)
 
-LED6–LED9 are yellow-green LEDs that can be used as desired by the
+LED6–LED9 are green LEDs that can be used as desired by the
 user.  For details, refer to CON17.
