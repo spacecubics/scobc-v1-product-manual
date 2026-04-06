@@ -40,7 +40,7 @@ include::partial$link-attributes.adoc[]
 
 [cols="3,^3,^2,^2,^2,^1,3",options="header"]
 |===
-| Item | Symbol | Min | typ | Max | Units | Conditions / Notes
+| Item | Symbol | Min | Typ | Max | Units | Conditions / Notes
 | Power supply voltage | VIN_5V0  | 4.75 | - | 5.5 | V |
 | Operating temperature | Topr | -40 | - | 80 | °C  |
 
@@ -69,7 +69,7 @@ include::partial$link-attributes.adoc[]
 
 [cols="2,^2,^1,^1,^1,^1,3",options="header"]
 |===
-| Item | Symbol | Min | typ | Max | Units | Conditions / Notes
+| Item | Symbol | Min | Typ | Max | Units | Conditions / Notes
 
 .6+| Output voltage from B to B connector
 ^| VDD_1V2_OUT | 1.164 | 1.2 | 1.236 | V |
