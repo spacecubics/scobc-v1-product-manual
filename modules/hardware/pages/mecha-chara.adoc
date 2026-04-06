@@ -1,0 +1,16 @@
+= Mechanical Characteristics
+
+== Board Outline Dimensions and Mounting Hole Locations
+The following figure shows the board outline dimensions and mounting hole locations.
+
+image::Board_Layout_Diagram-1.webp[]
+
+== Board-to-Board Connector Locations
+The following figure shows the placement of the board-to-board connectors.
+
+image::Board_Layout_Diagram-2.webp[]
+
+== Board-to-Board Connector Relative Locations on the Carrier Board
+The following figure shows the relative locations of the board-to-board connectors on the carrier board (top view).
+
+image::Mezzanine_Connector_Placement_Guidelines_for_Carrier_Board.webp[]
