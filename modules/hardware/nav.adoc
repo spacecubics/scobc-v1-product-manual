@@ -1,3 +1,4 @@
 .OBC Module
 * xref:elec-spec.adoc[]
 * xref:if-spec.adoc[]
+* xref:mecha-chara.adoc[]
