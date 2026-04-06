@@ -1,0 +1,4 @@
+:ds958: https://docs.amd.com/viewer/book-attachment/LmccG8ITo0u3b5Cf8XoH9A/A610SXGsHc1dITw4hQYQ0g-LmccG8ITo0u3b5Cf8XoH9A
+:am010: https://docs.amd.com/viewer/book-attachment/dIctUV4D01jb7bOSy6ALfQ/eyGRom_3zxh62dKTseb~JQ-dIctUV4D01jb7bOSy6ALfQ
+:am011: https://docs.amd.com/viewer/book-attachment/dwmjhDJGICdJqD4swyVzcQ/Jzy7DCWlFuxtoBraJ_VbVg-dwmjhDJGICdJqD4swyVzcQ
+:ds00004750: https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ProductDocuments/DataSheets/IGLOO-2-FPGA-And-SmartFusion-2-SoC-FPGA-Data-Sheet-DS00004750.pdf

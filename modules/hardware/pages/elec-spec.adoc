@@ -1,8 +1,10 @@
 = Electrical Specifications
 
+include::partial$link-attributes.adoc[]
+
 == Absolute Maximum Ratings
 
-:fn-id1: footnote:id1[Please refer to the https://docs.amd.com/viewer/book-attachment/LmccG8ITo0u3b5Cf8XoH9A/A610SXGsHc1dITw4hQYQ0g-LmccG8ITo0u3b5Cf8XoH9A[Versal AI Edge Series Data Sheet: DC and AC Switching Characteristics (DS958)] for the absolute maximum ratings related to GTYP.]
+:fn-id1: footnote:id1[Please refer to the {ds958}[Versal AI Edge Series Data Sheet: DC and AC Switching Characteristics (DS958)] for the absolute maximum ratings related to GTYP.]
 
 [cols="3,^3,^2,^2,^1,3",options="header"]
 |===
@@ -32,9 +34,9 @@
 
 == Recommended Operating Conditions
 
-:fn-id2: footnote:id2[For Versal XPIO and HDIO operation, see the https://docs.amd.com/viewer/book-attachment/dIctUV4D01jb7bOSy6ALfQ/eyGRom_3zxh62dKTseb~JQ-dIctUV4D01jb7bOSy6ALfQ[Versal Adaptive SoC SelectIO Resources Architecture Manual (AM010).] PSIO includes PMC dedicated I/O banks, PMC MIO banks, and LPD MIO banks. For PSIO operation, see the https://docs.amd.com/viewer/book-attachment/dwmjhDJGICdJqD4swyVzcQ/Jzy7DCWlFuxtoBraJ_VbVg-dwmjhDJGICdJqD4swyVzcQ[Versal Adaptive SoC Technical Reference Manual (AM011) .]]
+:fn-id2: footnote:id2[For Versal XPIO and HDIO operation, see the {am010}[Versal Adaptive SoC SelectIO Resources Architecture Manual (AM010).] PSIO includes PMC dedicated I/O banks, PMC MIO banks, and LPD MIO banks. For PSIO operation, see the {am011}[Versal Adaptive SoC Technical Reference Manual (AM011) .]]
 
-:fn-id3: footnote:id3[For IGLOO2 MSIO operation, see the https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ProductDocuments/DataSheets/IGLOO-2-FPGA-And-SmartFusion-2-SoC-FPGA-Data-Sheet-DS00004750.pdf[IGLOO2 FPGA and SmartFusion2 SoC FPGA.]]
+:fn-id3: footnote:id3[For IGLOO2 MSIO operation, see the {ds00004750}[IGLOO2 FPGA and SmartFusion2 SoC FPGA.]]
 
 [cols="3,^3,^2,^2,^2,^1,3",options="header"]
 |===
