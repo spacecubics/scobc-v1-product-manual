@@ -1,5 +1,7 @@
 = Overview
 
+image::dev-board.webp[]
+
 This section describes the details of the various interfaces on the
 SC-OBC Module V1 Development Board, which can host the SC-OBC Module
 V1.
